@@ -1,0 +1,3 @@
+import PageHero from '@/components/PageHero';
+import { publications } from '@/data/site';
+export default function Publications(){ return <main><PageHero kicker="Publications" title="Research, documented." copy="Selected recent publications from HXI Lab. The data-driven structure can be expanded to include DOI, PDF, video, project, and code links."/><section className="section"><div className="container"><div className="section-kicker">2026</div>{publications.map(p=><article className="pub" key={p.title}><div className="pub-meta">{p.venue}<br/>{p.type} · {p.status}</div><div><h3>{p.title}</h3><p>{p.authors}</p></div></article>)}</div></section></main> }

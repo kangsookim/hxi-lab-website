@@ -1,0 +1,4 @@
+import PageHero from '@/components/PageHero';
+import { members } from '@/data/site';
+const groups=['Director','Graduate Students','Undergraduate Researchers'];
+export default function Team(){ return <main><PageHero kicker="People" title="HXI is a team sport." copy="We bring together researchers across engineering, computing, healthcare, and human-centred design to build and study the future of interaction."/>{groups.map(g=><section className="section" key={g}><div className="container"><div className="section-kicker">{g}</div><div className="people-grid">{members.filter(m=>m.group===g).map(m=><article className="card person" key={m.name}><div className="avatar">{m.initials}</div><div className="person-info"><h3>{m.name}</h3><p>{m.role}</p></div></article>)}</div></div></section>)}</main> }

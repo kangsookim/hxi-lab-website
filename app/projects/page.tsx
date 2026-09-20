@@ -1,0 +1,3 @@
+import PageHero from '@/components/PageHero';
+import { projects } from '@/data/site';
+export default function Projects(){ return <main><PageHero kicker="Projects" title="Ideas tested in the real world." copy="HXI projects combine fundamental HCI questions with immersive systems, intelligent agents, clinical collaboration, training, health equity, and digital twins."/><section className="section"><div className="container"><div className="grid-3">{projects.map(p=><article className="card project-card" key={p.title}><div><span className="tag">{p.tag}</span><h3>{p.title}</h3><p>{p.text}</p></div><div className="meta">{p.meta}</div></article>)}</div></div></section></main> }
