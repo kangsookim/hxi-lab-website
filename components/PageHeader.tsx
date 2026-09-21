@@ -1,0 +1,1 @@
+export default function PageHeader({eyebrow,title,copy}:{eyebrow:string;title:string;copy:string}){return <section className="page-head"><div className="wrap"><div className="eyebrow">{eyebrow}</div><h1>{title}</h1><p>{copy}</p></div></section>}

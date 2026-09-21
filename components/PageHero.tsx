@@ -1,1 +1,0 @@
-export default function PageHero({kicker,title,copy}:{kicker:string,title:string,copy:string}){ return <section className="page-hero"><div className="container"><div className="eyebrow">{kicker}</div><h1>{title}</h1><p className="lead">{copy}</p></div></section> }

@@ -1,57 +1,128 @@
-export const researchAreas = [
-  { title: 'Pervasive XR', subtitle: 'AR · VR · MR', icon: 'XR', text: 'Context-aware immersive systems that connect physical and digital environments.' },
-  { title: 'Human Perception', subtitle: 'Perception · Cognition', icon: 'HC', text: 'Understanding how people perceive, think, and behave in immersive environments.' },
-  { title: 'Social XR', subtitle: 'Avatars · Agents', icon: 'SX', text: 'Designing expressive avatars and intelligent agents for meaningful social interaction.' },
-  { title: 'Multimodal Interaction', subtitle: 'Gaze · Voice · Gesture', icon: 'MI', text: 'Natural interfaces that combine multiple human signals and interaction modalities.' },
-  { title: 'Augmented Human', subtitle: 'Capability · Agency', icon: 'AH', text: 'Technologies that extend human capability while preserving judgment and autonomy.' },
-  { title: 'XR + AI Twins', subtitle: 'Simulation · Digital Twins', icon: 'DT', text: 'Intelligent immersive representations for complex systems, training, and decisions.' },
+export type Member = {name:string; role:string; period?:string; group:string; image:string; affiliation?:string; email?:string};
+export const currentMembers: Member[] = [
+  {name:'Kangsoo Kim', role:'Director · Associate Professor, ESE', group:'Director', image:'/assets/team/KangsooKIM.png', email:'kangsoo.kim@ucalgary.ca'},
+  {name:'Muskan Sarvesh', role:'Ph.D. Candidate · ESE', period:'2022.07–Present', group:'Graduate Students', image:'/assets/team/MuskanSARVESH.png'},
+  {name:'Ahmad Fouad', role:'Ph.D. Candidate · ESE', period:'2024.09–Present', group:'Graduate Students', image:'/assets/team/AhmadFOUAD.png'},
+  {name:'Taeyeon Kim', role:'Ph.D. Student · ESE', period:'2025.09–Present', group:'Graduate Students', image:'/assets/team/TaeyeonKIM.png'},
+  {name:'Chuyang Zhang', role:'Ph.D. Student · ESE', period:'2025.09–Present', group:'Graduate Students', image:'/assets/team/ChuyangZHANG.png'},
+  {name:'Jessica Kim', role:'M.Sc. Student · BME', period:'2025.01–Present', group:'Graduate Students', image:'/assets/team/JessicaKIM.png'},
+  {name:'MyungJun (MJ) Lee', role:'M.Sc. Student · ESE', period:'2025.09–Present', group:'Graduate Students', image:'/assets/team/MyoungjunLEE.png'},
+  {name:'Tafreed Ahmad', role:'M.Sc. Student · ESE', period:'2025.09–Present', group:'Graduate Students', image:'/assets/team/TafreedAHMAD.png'},
+  {name:'Mehak Kaur', role:'B.Sc. Student · ESE', period:'2026.09–Present', group:'Undergraduate Researchers', image:'/assets/team/MehakKAUR.png'},
+  {name:'Svara Patel', role:'B.Sc. Student · ESE', period:'2026.09–Present', group:'Undergraduate Researchers', image:'/assets/team/SvaraPATEL.png'},
+  {name:"Roberto D'Amore", role:'Visiting Ph.D. Student', period:'2026.09–Present', group:'Visiting Researchers', affiliation:'Polytechnic University of Bari', image:'/assets/team/RobertoDAMORE.png'}
+];
+export const alumni: Member[] = [
+  {name:'Hyeongil Nam', role:'Postdoctoral Researcher · ESE', period:'2024.06–2026.08', group:'Alumni', image:'/assets/team/HyeongilNAM.png'},
+  {name:'Zaid Ahmed', role:'B.Sc. Student · ESE', period:'2025.01–2026.06', group:'Alumni', image:'/assets/team/ZaidAHMED.png'},
+  {name:'Jazeb Zafar', role:'B.Sc. Student · ESE', period:'2025.02–2026.06', group:'Alumni', image:'/assets/team/JazebJAFAR.png'},
+  {name:'Aser Ghobara', role:'B.Sc. Student · ESE', period:'2025.09–2026.06', group:'Alumni', image:'/assets/team/AserGHOBARA.png'},
+  {name:'Magdy Hafez', role:'B.Sc. Student · ESE', period:'2026.02–2026.06', group:'Alumni', image:'/assets/team/MagdyHAFEZ.png'},
+  {name:'Arjun Chatha', role:'B.Sc. Student · ESE', period:'2025.02–2026.04', group:'Alumni', image:'/assets/team/ArjunCHATHA.png'},
+  {name:'Mehdi Marzban', role:'M.Sc. Student · ESE', period:'2022.05–2026.01', group:'Alumni', image:'/assets/team/MehdiMARZBAN.png'},
+  {name:'Charbel Maroun', role:'B.Sc. Student · ESE', period:'2025.05–2025.08', group:'Alumni', image:'/assets/team/CharbelMAROUN.png'},
+  {name:'Junyeong Kum', role:'Visiting Ph.D. Student', period:'2025.05–2025.08', group:'Alumni', affiliation:'Pusan National University', image:'/assets/team/JunyeongKUM.png'},
+  {name:'Ryan (Minseok) Kang', role:'M.Sc. Student · ESE', period:'2023.08–2025.07', group:'Alumni', image:'/assets/team/RyanKANG.png'},
+  {name:'Omar Khan', role:'B.Sc. Student / Research Associate', period:'2023.01–2025.09', group:'Alumni', image:'/assets/team/OmarKHAN.png'},
+  {name:'Hyun-Ho Choi', role:'Visiting Professor', period:'2024.03–2025.02', group:'Alumni', affiliation:'Hankyong National University', image:'/assets/team/HyunghoCHOI.png'},
+  {name:'Michael Francis', role:'M.Sc. Student · ESE', period:'2022.09–2025.01', group:'Alumni', image:'/assets/team/MichaelFRANCIS.png'},
+  {name:'Anh Nguyen', role:'B.Sc. Student · CS', period:'2022.05–2024.12', group:'Alumni', image:'/assets/team/AnhNGUYEN.png'},
+  {name:'Changgu Kang', role:'Visiting Professor', period:'2023.03–2024.02', group:'Alumni', affiliation:'Gyeongsang National University', image:'/assets/team/ChangguKANG.png'},
+  {name:'Kisub Lee', role:'Visiting M.Sc. Student', period:'2023.09–2024.02', group:'Alumni', affiliation:'Hanyang University', image:'/assets/team/KisubLEE.png'},
+  {name:'Chae Heon Lim', role:'Visiting M.Sc. Student', period:'2023.08–2024.01', group:'Alumni', affiliation:'Gyeongsang National University', image:'/assets/team/ChaeheonLIM.png'},
+  {name:'Seoyoung Kang', role:'Visiting Ph.D. Student', period:'2023.08–2024.01 · 2025.09–2025.11', group:'Alumni', affiliation:'KAIST', image:'/assets/team/SeoyoungKANG.png'},
+  {name:'Yifan Li', role:'Ph.D. Student · ESE', period:'2022.09–2023.12', group:'Alumni', image:'/assets/team/YifanLI.png'},
+  {name:'Kanchan Shrestha', role:'Summer B.Sc. Student', period:'2022.05–2022.08', group:'Alumni', affiliation:"Queen's University · NSERC USRA", image:'/assets/team/KanchanSHRESTHA.png'},
+  {name:'Jason Nguyen', role:'Summer B.Sc. Student · ESE', period:'2022.05–2022.08', group:'Alumni', image:'/assets/team/JasonNGUYEN.png'}
 ];
 
-export const applications = [
-  { title: 'Healthcare', text: 'Clinical training, resuscitation, wellbeing, maternal health, decision support.' },
-  { title: 'Education & Training', text: 'Immersive learning, authentic assessment, pedagogical agents, serious games.' },
-  { title: 'Industry', text: 'Safety, operations, digital twins, maintenance, and collaborative decision-making.' },
-  { title: 'Social & Entertainment', text: 'Social presence, embodiment, immersive communication, and playful interaction.' },
+export const researchThemes = [
+  {title:'Immersive Interaction', kicker:'XR · Spatial Computing', text:'We design pervasive AR, VR, and MR experiences that connect physical and digital environments and support natural interaction.', image:'/assets/research/Research01.jpeg'},
+  {title:'Human-AI Interaction', kicker:'Agents · Adaptation · Trust', text:'We study intelligent virtual agents, AI-guided interfaces, personalization, and how AI behavior shapes human judgment and relationships.', image:'/assets/research/Research03.jpeg'},
+  {title:'Human Factors', kicker:'Perception · Cognition · Presence', text:'We investigate perception, cognition, social presence, embodiment, workload, trust, and behavior in immersive environments.', image:'/assets/research/Research02.jpeg'},
+  {title:'Multimodal & Augmented Human', kicker:'Gaze · Voice · Physiology', text:'We combine multimodal sensing and interaction to extend human capability while preserving agency, autonomy, and meaningful control.', image:'/assets/research/Research05.jpeg'},
+  {title:'XR + AI Digital Twins', kicker:'Simulation · Decision Support', text:'We connect immersive interfaces, intelligent agents, analytics, and digital twins for complex operational and training contexts.', image:'/assets/research/Research06.jpeg'}
 ];
-
+export const applicationAreas = [
+  {title:'Healthcare', text:'Clinical decision support, resuscitation training, mental wellbeing, palliative care, maternal health, and health equity.', image:'/assets/research/App04.jpg'},
+  {title:'Education & Training', text:'Immersive learning, pedagogical agents, authentic assessment, simulation, and serious games.', image:'/assets/research/App03.jpeg'},
+  {title:'Social Interaction', text:'Avatars, virtual humans, social presence, relationships with AI agents, and collaborative XR.', image:'/assets/research/App02.jpeg'},
+  {title:'Industry & Digital Twins', text:'Safety, operations, maintenance, collaboration, analytics, and immersive digital twins.', image:'/assets/research/App01.jpeg'}
+];
 export const projects = [
-  { tag: 'XR + AI · Healthcare', title: 'CARE-XRAI', text: 'AI-powered XR agents supporting psychological resilience and recovery for in-hospital resuscitation teams.', meta: 'Government of Alberta · 2026–2028', tone: 'violet' },
-  { tag: 'VR · Clinical Training', title: 'AI-Guided Resuscitation Training', text: 'Studying how text, object, and embodied AI guides can support team-leader training in immersive emergency scenarios.', meta: 'KidSIM · Alberta Children’s Hospital', tone: 'blue' },
-  { tag: 'VR · Health Equity', title: 'Bridging the Distance', text: 'A culturally situated VR experience supporting Inuit women who relocate for maternal care.', meta: 'CIHR · Inuit Perinatal Health', tone: 'cyan' },
-  { tag: 'XR + AI · Digital Twin', title: 'SHAPE', text: 'An XR and AI-enabled digital twin for safer hydrogen pipeline monitoring, analytics, and collaboration.', meta: 'Alberta Innovates · Hydrogen Centre of Excellence', tone: 'amber' },
-  { tag: 'Social XR · Agents', title: 'Trust, Embodiment & Social Interaction', text: 'Investigating how appearance, behaviour, personality, responsiveness, and accuracy shape human relationships with AI agents.', meta: 'NSERC Discovery · Social XR', tone: 'rose' },
-  { tag: 'VR · Nursing Education', title: 'AI Virtual Agents for Palliative Care', text: 'Exploring culturally responsive palliative-care education with embodied AI agents in VR.', meta: 'UCalgary Transdisciplinary Connector Grant', tone: 'green' },
+  {title:'CARE-XRAI', label:'Healthcare · XR + AI', text:'Cognitive and affective resilience enhancement through XR-AI agents for in-hospital resuscitation teams.', image:'/assets/research/App04.jpg', meta:'Government of Alberta · SPHIFR'},
+  {title:'AI-Guided Resuscitation Training', label:'Clinical Training · Virtual Agents', text:'Exploring how text, object, and embodied AI guides can support resuscitation team-leader training in immersive VR.', image:'/assets/research/Research03.jpeg', meta:'KidSIM · Alberta Children’s Hospital'},
+  {title:'Bridging the Distance', label:'Maternal Health · Culturally Situated VR', text:'Designing immersive support for Inuit women who relocate for maternal care, grounded in context, culture, and lived experience.', image:'/assets/research/App03.jpeg', meta:'CIHR · Inuit Perinatal Health'},
+  {title:'SHAPE Digital Twin', label:'Industry · XR + AI', text:'An immersive digital twin for hydrogen pipeline analytics, monitoring, training, and tacit knowledge transfer.', image:'/assets/research/Research06.jpeg', meta:'Alberta Innovates · Hydrogen Centre of Excellence'},
+  {title:'Social XR & Intelligent Agents', label:'Social Interaction · Human-AI', text:'Understanding how appearance, personality, responsiveness, dominance, and accuracy influence trust, reliance, and social interaction.', image:'/assets/research/Research02.jpeg', meta:'NSERC Discovery'},
+  {title:'AI Virtual Agents for Palliative Care', label:'Nursing Education · VR', text:'Exploring culturally responsive palliative-care education using embodied AI virtual agents in immersive simulation.', image:'/assets/research/Research05.jpeg', meta:'UCalgary Transdisciplinary Scholarship'}
 ];
 
-export const members = [
-  { name: 'Kangsoo Kim', role: 'Director · Associate Professor', group: 'Director', initials: 'KK' },
-  { name: 'Muskan Sarvesh', role: 'Ph.D. Candidate · ESE', group: 'Graduate Students', initials: 'MS' },
-  { name: 'Ahmad Fouad', role: 'Ph.D. Student · ESE', group: 'Graduate Students', initials: 'AF' },
-  { name: 'Taeyeon Kim', role: 'Ph.D. Student · ESE', group: 'Graduate Students', initials: 'TK' },
-  { name: 'Chuyang Zhang', role: 'Ph.D. Student · ESE', group: 'Graduate Students', initials: 'CZ' },
-  { name: 'Jessica Kim', role: 'M.Sc. Student · BME', group: 'Graduate Students', initials: 'JK' },
-  { name: 'MyungJun (MJ) Lee', role: 'M.Sc. Student · ESE', group: 'Graduate Students', initials: 'ML' },
-  { name: 'Tafreed Ahmad', role: 'M.Sc. Student · ESE', group: 'Graduate Students', initials: 'TA' },
-  { name: 'Mehak Kaur', role: 'B.Sc. Student · ESE', group: 'Undergraduate Researchers', initials: 'MK' },
-  { name: 'Svara Patel', role: 'B.Sc. Student · ESE', group: 'Undergraduate Researchers', initials: 'SP' },
+export type Pub = {year:number; category:'Journal'|'Conference'|'Workshop'|'Poster / EA'|'Book'|'Other'; subtype:string; title:string; authors:string; venue:string; doi?:string; status?:string; award?:string; image?:string};
+export const publications: Pub[] = [
+{year:2026,category:'Conference',subtype:'Conference Paper',title:'Authentication-Driven Personalization for Facial Emotion Recognition Under Head-Mounted Display Occlusion',authors:'Myungjun Lee, Chuyang Zhang, Hyeongil Nam, Gouri Ginde, and Kangsoo Kim',venue:'ACM Symposium on Virtual Reality Software and Technology (VRST)',status:'Accepted',image:'/assets/publications/Lee2026agr.png'},
+{year:2026,category:'Conference',subtype:'Conference Paper',title:'Exploring Cultural Competency in Palliative Nursing Education Using AI-Powered Virtual Agents in VR: A Design-Oriented Pilot Study',authors:'Taeyeon Kim, Arjun Chatha, Caitlin Manz, Hyeongil Nam, Kara Sealock, and Kangsoo Kim',venue:'ACM Symposium on Virtual Reality Software and Technology (VRST)',status:'Accepted',image:'/assets/publications/Kim2026ecc.png'},
+{year:2026,category:'Poster / EA',subtype:'Poster',title:'Investigating the Impact of Personalized Gaze Behaviors on Social Interaction with Virtual Humans in VR: A Study Design',authors:'Chuyang Zhang, Hyeongil Nam, and Kangsoo Kim',venue:'ACM Symposium on Spatial User Interaction (SUI)',status:'Accepted',image:'/assets/publications/Zhang2026pmi.png'},
+{year:2026,category:'Poster / EA',subtype:'Poster',title:'The Impact of Customizing Pedagogical Agents on Learners’ Intrinsic Motivation and Satisfaction in Augmented Reality',authors:'Ahmad A. Fouad, Hyeongil Nam, and Kangsoo Kim',venue:'ACM Symposium on Spatial User Interaction (SUI)',status:'Accepted',image:'/assets/publications/Fouad2026tio.png'},
+{year:2026,category:'Journal',subtype:'Journal Article',title:'User Profiling and Modeling in Extended Reality: A Scoping Review',authors:'Chuyang Zhang, Hyeongil Nam, and Kangsoo Kim',venue:'IEEE Transactions on Visualization and Computer Graphics (TVCG)',status:'Accepted',image:'/assets/publications/Zhang2026pmi.png'},
+{year:2026,category:'Journal',subtype:'Journal Article',title:'Self-Resemblance and Activity-Aware Responses Shape Relational Openness and Reflection in XR Companion Interaction',authors:'Hyeongil Nam, Jeewoo Kim, and Kangsoo Kim',venue:'IEEE Transactions on Visualization and Computer Graphics (TVCG)',status:'Accepted',image:'/assets/publications/Nam2026aft.png'},
+{year:2026,category:'Conference',subtype:'Conference Paper',title:'The Use of Pedagogical Agents in Virtual and Augmented Reality: A Scoping Review of Motivation through Self-Determination Theory',authors:'Ahmad A. Fouad, Hyeongil Nam, and Kangsoo Kim',venue:'IEEE International Symposium on Mixed and Augmented Reality (ISMAR)',status:'Accepted',image:'/assets/publications/Fouad2026tuo.png'},
+{year:2026,category:'Workshop',subtype:'Workshop Paper',title:'AI Guide Representation as a Design Variable for Resuscitation Team-Leader Training in Virtual Reality: A Work-in-Progress',authors:'Myungjun Lee, Hyeongil Nam, Jennifer Davidson, Yiqun Lin, Adam Cheng, and Kangsoo Kim',venue:'ISMAR Adjunct · XRAI-SCA',status:'Accepted',image:'/assets/publications/Lee2026ltl.png'},
+{year:2026,category:'Workshop',subtype:'Workshop Paper',title:'From 2D Analytics to an XR and AI-Enabled Digital Twin of Hydrogen Pipeline Systems: Progress in the SHAPE Project',authors:'Muskan Sarvesh, Nanjia Wang, Saadman Rahman, Brody Wells, Taeyeon Kim, Sina Rezvani, Aaditya Ramesh, Bob Brennan, Ron Hugo, Frank Maurer, and Kangsoo Kim',venue:'ISMAR Adjunct · XRAI-SCA',status:'Accepted',image:'/assets/publications/Sarvesh2026f2a.png'},
+{year:2026,category:'Workshop',subtype:'Workshop Paper',title:'Bridging the Distance: A Culturally Situated VR Experience for Inuit Women Relocating for Maternal Care',authors:'Ahmad A. Fouad, Tafreed Ahmad, Hyeongil Nam, Mary Ann Forbes, Judy Clark, Gail Baikie, Patricia Johnston, and Kangsoo Kim',venue:'ISMAR Adjunct · XRAI-SCA',status:'Accepted',image:'/assets/publications/Fouad2026btd.png'},
+{year:2026,category:'Workshop',subtype:'Workshop Paper',title:'Agent Personality as Social Augmentation: How AI Traits Shape Human Perception and Decision-Making in XR',authors:'Taeyeon Kim, Hyeongil Nam, and Kangsoo Kim',venue:'ACM CHI Workshop on Social Augmentation through XR Technologies',image:'/assets/publications/Kim2026apa.png'},
+{year:2026,category:'Poster / EA',subtype:'Extended Abstract',title:'Exploring Experiential Differences Between Virtual and Physical Memory-Linked Objects in Extended Reality',authors:'Zaid Ahmed, Omar Khan, Hyeongil Nam, and Kangsoo Kim',venue:'ACM CHI Conference Extended Abstracts',doi:'https://doi.org/10.1145/3772363.3798977',image:'/assets/publications/Ahmed2026eed.png'},
+{year:2026,category:'Conference',subtype:'Conference Paper',title:'The Dominance Effect: How Verbal and Nonverbal Cues of Virtual Agents Influence Decision-Making in VR',authors:'Taeyeon Kim, Hyeongil Nam, Sunghun Jung, Ahmad A. Fouad, Kangsoo Kim, and Myungho Lee',venue:'ACM CHI Conference on Human Factors in Computing Systems',doi:'https://doi.org/10.1145/3772318.3791539',image:'/assets/publications/Kim2026tde.jpg'},
+{year:2026,category:'Journal',subtype:'Journal Article',title:'Influence of Avatar Appearance and Target Distance on Locomotion Method Selection in Virtual Reality',authors:'Omar Khan, Junyeong Kum, Hyeongil Nam, Myungho Lee, and Kangsoo Kim',venue:'IEEE Transactions on Visualization and Computer Graphics, 32(5), 4668–4677',doi:'https://doi.org/10.1109/TVCG.2026.3679092',image:'/assets/publications/Khan2026ioa.jpg'},
+{year:2026,category:'Journal',subtype:'Journal Article',title:'Streamlined Facial Data Collection based on Utterance and Emotional Data for Avatar Reconstruction in Conversational Contexts',authors:'Seoyoung Kang, Seokhwan Yang, Hail Song, Boram Yoon, Jinwook Kim, Kangsoo Kim, and Woontack Woo',venue:'IEEE Transactions on Visualization and Computer Graphics, 32(5), 4032–4040',doi:'https://doi.org/10.1109/TVCG.2026.3679884',image:'/assets/publications/Kang2026sfd.jpg'},
+{year:2025,category:'Conference',subtype:'Conference Paper',title:'What if Virtual Agents Had Scents? Users’ Judgments of Virtual Agent Personality and Appeals in Encounters',authors:'Dongyun Han, Si-Yeon Bak, So-Hui Kim, Kangsoo Kim, Sun-Jeong Kim, and Isaac Cho',venue:'IEEE International Symposium on Mixed and Augmented Reality (ISMAR)',doi:'https://doi.org/10.1109/ISMAR67309.2025.00028',image:'/assets/publications/Han2025wiv.png'},
+{year:2025,category:'Workshop',subtype:'Workshop Paper',title:'An Immersive Digital Twin with Virtual Agent Interface for Pipeline Leak Simulation and Monitoring',authors:'Mehdi Marzban, Muskan Sarvesh, Charbel Maroun, Brody Wells, Nanjia Wang, Hyeongil Nam, Frank Maurer, and Kangsoo Kim',venue:'ISMAR Adjunct · XRAI-SCA',doi:'https://doi.org/10.1109/ISMAR-Adjunct68609.2025.00045',image:'/assets/publications/Marzban2025aid.png'},
+{year:2025,category:'Workshop',subtype:'Workshop Paper',title:'Developing a Palliative Care Simulation for the Hindu Cultural Context Using Interactive Virtual Agents: A Work-in-Progress',authors:'Arjun Chatha, Hyeongil Nam, Kara Sealock, and Kangsoo Kim',venue:'ISMAR Adjunct · XRAI-SCA',doi:'https://doi.org/10.1109/ISMAR-Adjunct68609.2025.00039',image:'/assets/publications/Chatha2025dap.png'},
+{year:2025,category:'Journal',subtype:'Journal Article',title:'The Use of Eye Gaze Data and Personality Traits: A Scoping Review of the Literature',authors:'Jan Skala and Kangsoo Kim',venue:'WIREs Cognitive Science, 16(3), e70008',doi:'https://doi.org/10.1002/wcs.70008',image:'/assets/publications/Skala2025tuo.png'},
+{year:2024,category:'Conference',subtype:'Conference Paper',title:'Extended Reality and Digital Twin in the Oil and Gas Pipeline Industry: A Systematic Review on Applications, Trends, and Future Directions',authors:'Muskan Sarvesh, Minseok Kang, Hyeongil Nam, Simon S. Park, Ron Hugo, Frank Maurer, and Kangsoo Kim',venue:'IEEE ISMAR 2024, 710–719',doi:'https://doi.org/10.1109/ISMAR62088.2024.00086',image:'/assets/publications/Sarvesh2024era.png'},
+{year:2024,category:'Poster / EA',subtype:'Poster',title:'Exploring the Effects of Field of View and Opacity of Peripheral Real Scene on Virtual Reality Sickness',authors:'Chae Heon Lim, Kangsoo Kim, Changgu Kang, and Seul Chan Lee',venue:'IEEE ISMAR Adjunct 2024',doi:'https://doi.org/10.1109/ISMAR-Adjunct64951.2024.00110',image:'/assets/publications/Lim2024ete.png'},
+{year:2024,category:'Other',subtype:'Demo',title:'Virtual Dairy Farm: An Interactive Experience for Public Education',authors:'Anh Nguyen, Hyeongil Nam, Emma Windfeld, Michael Francis, Guillaume Lhermie, and Kangsoo Kim',venue:'IEEE ISMAR Adjunct 2024',doi:'https://doi.org/10.1109/ISMAR-Adjunct64951.2024.00184',image:'/assets/publications/Anh2024iti.png'},
+{year:2023,category:'Conference',subtype:'Conference Paper',title:'Exploring the Effects of VR Activities on Stress Relief: A Comparison of Sitting-in-Silence, VR Meditation, and VR Smash Room',authors:'Dongyun Han, Donghoon Kim, Kangsoo Kim, and Isaac Cho',venue:'IEEE ISMAR 2023, 875–884',doi:'https://doi.org/10.1109/ISMAR59233.2023.00103',image:'/assets/publications/Han2023acs.png'},
+{year:2023,category:'Journal',subtype:'Journal Article',title:'Physically Plausible Realistic Grip-lift Interaction Based on Hand Kinematics in VR',authors:'Hyeongil Nam, Chanhee Kim, Kangsoo Kim, and Jong-Il Park',venue:'Electronics, 12(13), 2794',doi:'https://doi.org/10.3390/electronics12132794',image:'/assets/publications/Nam2023ppr.png'},
+{year:2023,category:'Book',subtype:'Book Chapter',title:'The Augmented Reality Internet of Things',authors:'Kangsoo Kim and collaborators',venue:'Springer Handbook of Augmented Reality',image:'/assets/publications/Kim2023tar.png'},
+{year:2021,category:'Conference',subtype:'Conference Paper',title:'Revisiting Distance Perception with Scaled Embodied Cues in Social Virtual Reality',authors:'Zubin Choudhary, Matthew Gottsacker, Kangsoo Kim, Ryan Schubert, Jeanine Stefanucci, Gerd Bruder, and Gregory F. Welch',venue:'IEEE VR 2021, 788–797',doi:'https://doi.org/10.1109/VR50410.2021.00106',image:'/assets/publications/Choudhary2021rdp.png'},
+{year:2021,category:'Poster / EA',subtype:'Extended Abstract',title:'Autonomous Vehicle Visual Embodiment for Pedestrian Interactions in Crossing Scenarios',authors:'Hiroshi Furuya, Kangsoo Kim, Gerd Bruder, Pamela J. Wisniewski, and Gregory F. Welch',venue:'ACM CHI Extended Abstracts 2021',doi:'https://doi.org/10.1145/3411763.3451626',image:'/assets/publications/Furuya2021avv.png'},
+{year:2020,category:'Journal',subtype:'Journal Editorial',title:'Multimodal interfaces and communication cues for remote collaboration',authors:'Seungwon Kim, Mark Billinghurst, and Kangsoo Kim',venue:'Journal on Multimodal User Interfaces, 14(4), 313–319',doi:'https://doi.org/10.1007/s12193-020-00346-8',image:'/assets/publications/Kim2020mia.png'},
+{year:2019,category:'Conference',subtype:'Conference Paper',title:'Effects of Shared Gaze Parameters on Visual Target Identification Task Performance in Augmented Reality',authors:'Nahal Norouzi, Austin Erickson, Kangsoo Kim, Ryan Schubert, Joseph J. Laviola, Gerd Bruder, and Gregory F. Welch',venue:'ACM SUI 2019',doi:'https://doi.org/10.1145/3357251.3357587',award:'Best Long Paper Award',image:'/assets/publications/Norouzi2019eos.png'},
+{year:2018,category:'Journal',subtype:'Journal Article',title:'Revisiting Trends in Augmented Reality Research: A Review of the 2nd Decade of ISMAR (2008–2017)',authors:'Kangsoo Kim, Mark Billinghurst, Gerd Bruder, Henry B.L. Duh, and Gregory F. Welch',venue:'IEEE TVCG, 24(11), 2947–2962',doi:'https://doi.org/10.1109/TVCG.2018.2868591',image:'/assets/publications/Kim2018rti.png'},
+{year:2016,category:'Conference',subtype:'Conference Paper',title:'The Wobbly Table: Increased Social Presence via Subtle Incidental Movement of a Real-Virtual Table',authors:'Myungho Lee, Kangsoo Kim, Salam Daher, Andrew Raij, Ryan Schubert, Jeremy N. Bailenson, and Gregory F. Welch',venue:'IEEE VR 2016, 11–17',doi:'https://doi.org/10.1109/VR.2016.7504683',image:'/assets/publications/Lee2016twt.png'},
+{year:2015,category:'Workshop',subtype:'Workshop Paper',title:'Maintaining and Enhancing Human-Surrogate Presence in Augmented Reality',authors:'Kangsoo Kim and Gregory F. Welch',venue:'IEEE ISMAR Workshop on Human Perception and Psychology in AR',doi:'https://doi.org/10.1109/ISMARW.2015.13',image:'/assets/publications/Kim2015mae.png'}
 ];
 
-export const publications = [
-  { year: 2026, type: 'Conference', venue: 'ACM VRST', title: 'Authentication-Driven Personalization for Facial Emotion Recognition Under Head-Mounted Display Occlusion', authors: 'Myungjun Lee, Chuyang Zhang, Hyeongil Nam, Gouri Ginde, and Kangsoo Kim', status: 'Accepted' },
-  { year: 2026, type: 'Conference', venue: 'ACM VRST', title: 'Exploring Cultural Competency in Palliative Nursing Education Using AI-Powered Virtual Agents in VR: A Design-Oriented Pilot Study', authors: 'Taeyeon Kim, Arjun Chatha, Caitlin Manz, Hyeongil Nam, Kara Sealock, and Kangsoo Kim', status: 'Accepted' },
-  { year: 2026, type: 'Conference', venue: 'IEEE ISMAR', title: 'The Use of Pedagogical Agents in Virtual and Augmented Reality: A Scoping Review of Motivation through Self-Determination Theory', authors: 'Ahmad A. Fouad, Hyeongil Nam, and Kangsoo Kim', status: 'Accepted' },
-  { year: 2026, type: 'Workshop', venue: 'IEEE ISMAR Adjunct · XRAI-SCA', title: 'AI Guide Representation as a Design Variable for Resuscitation Team-Leader Training in Virtual Reality: A Work-in-Progress', authors: 'Myungjun Lee, Hyeongil Nam, Jennifer Davidson, Yiqun Lin, Adam Cheng, and Kangsoo Kim', status: 'Accepted' },
-  { year: 2026, type: 'Workshop', venue: 'IEEE ISMAR Adjunct · XRAI-SCA', title: 'From 2D Analytics to an XR and AI-Enabled Digital Twin of Hydrogen Pipeline Systems: Progress in the SHAPE Project', authors: 'Muskan Sarvesh et al.', status: 'Accepted' },
-  { year: 2026, type: 'Workshop', venue: 'IEEE ISMAR Adjunct · XRAI-SCA', title: 'Bridging the Distance: A Culturally Situated VR Experience for Inuit Women Relocating for Maternal Care', authors: 'Ahmad A. Fouad, Tafreed Ahmad, Hyeongil Nam, Mary Ann Forbes, Judy Clark, Gail Baikie, Patricia Johnston, and Kangsoo Kim', status: 'Accepted' },
+export const latestNews = [
+{date:'2026-09-15',title:'Two conference papers accepted at ACM VRST 2026',tag:'Publications'},
+{date:'2026-09-05',title:"Roberto D'Amore joined HXI as a visiting graduate researcher from Polytechnic University of Bari",tag:'Team'},
+{date:'2026-08-14',title:'Hyeongil Nam started a new chapter as a professor at Hanyang University ERICA',tag:'Team'},
+{date:'2026-08-13',title:'Six JBNU visiting undergraduate students completed a two-week XR Agent Development and Evaluation program',tag:'Lab'},
+{date:'2026-08-10',title:'Two poster papers accepted at ACM SUI 2026',tag:'Publications'},
+{date:'2026-07-24',title:'Seven workshop papers accepted for presentation at the ISMAR 2026 Workshops',tag:'Publications'},
+{date:'2026-07-24',title:'Two IEEE TVCG articles and one ISMAR conference paper accepted for presentation at ISMAR 2026',tag:'Publications'},
+{date:'2026-07-14',title:'Ahmad passed his Ph.D. candidacy exam',tag:'Team'},
+{date:'2026-06-24',title:'Kangsoo received the AKCSE Best Service Award',tag:'Award'},
+{date:'2026-05-22',title:'A journal article was published in JAMA Network Open with Alberta Children’s Hospital and Geneva University Hospitals',tag:'Publications'},
+{date:'2026-05-12',title:'Kangsoo received the Early-Career Research Excellence Award from the Schulich School of Engineering',tag:'Award'},
+{date:'2026-03-23',title:'Kangsoo received the IEEE VGTC Significant New Researcher Award at IEEE VR 2026',tag:'Award'},
+{date:'2025-10-12',title:'Omar, Hyeongil, and Kangsoo received an Honorable Mention Award at IEEE ISMAR 2025',tag:'Award'},
+{date:'2025-09-27',title:'Kangsoo delivered a keynote talk at APMAR 2025',tag:'Talk'},
+{date:'2025-06-09',title:'Omar and Anh graduated with B.Sc. degrees in Computer Science',tag:'Team'}
 ];
 
-export const news = [
-  { date: '2026.09.15', text: 'Two conference papers were accepted at ACM VRST 2026.', category: 'Publication' },
-  { date: '2026.09.05', text: 'Roberto joined HXI Lab as a visiting graduate researcher from the Polytechnic University of Bari.', category: 'People' },
-  { date: '2026.08.14', text: 'Hyeongil started a new chapter as a professor at Hanyang University ERICA.', category: 'People' },
-  { date: '2026.08.13', text: 'Six visiting undergraduate students from Jeonbuk National University completed their XR Agent Development and Evaluation program.', category: 'Lab' },
-  { date: '2026.08.10', text: 'Two poster papers were accepted at ACM SUI 2026.', category: 'Publication' },
-  { date: '2026.07.24', text: 'Seven workshop papers were accepted for presentation at the ISMAR 2026 Workshops.', category: 'Publication' },
-  { date: '2026.07.24', text: 'Two IEEE TVCG articles and one ISMAR conference paper were accepted for presentation at ISMAR 2026.', category: 'Publication' },
-  { date: '2026.07.14', text: 'Ahmad passed his Ph.D. candidacy exam.', category: 'People' },
+export const funding = [
+{period:'2026–2028',role:'PI',title:'Cognitive and Affective Resilience Enhancement through XR-AI Agents for In-Hospital Resuscitation Teams',agency:'Government of Alberta · SPHIFR'},
+{period:'2025–2026',role:'PI',title:'AI-Powered AR Decision Support System to Assist In-Hospital Resuscitation Teams',agency:'UCalgary Schulich Momentum Grant'},
+{period:'2025–2030',role:'Co-Applicant',title:'Keeping the Children Home: Policy change to improve sexual and reproductive healthcare for Kivallirmiut in Nunavut',agency:'CIHR Project Grant'},
+{period:'2025–2030',role:'Co-PI',title:'Keeping the Children Home: How CPS and SRHR impact the physical and mental health of Inuit youth in Nunavut',agency:'CIHR Team Grant · Healthy Youth – Indigenous'},
+{period:'2024–2029',role:'PI',title:'Designing and Evaluating Novel eXtended Reality User Interfaces for Effective Multi-User Social Interactions',agency:'Canada Foundation for Innovation · JELF'},
+{period:'2024–2026',role:'Co-PI',title:'Safe Hydrogen Pipelines: Digital Transformation and Leak Detection through AI and Digital Twinning',agency:'Alberta Innovates · Hydrogen Centre of Excellence'},
+{period:'2024–2027',role:'Co-PI',title:'AR-Screen: Evaluation of a Decision Support System for Cardiac Arrest',agency:'LevMax Health Grant · Alberta Innovates'},
+{period:'2023–2027',role:'Co-PI',title:'Inuit Perinatal Health Hub: Building Inuit-Specific Resources and Support for Inuit Women in the Kivalliq Region',agency:'CIHR · National Women’s Health Research Initiative'},
+{period:'2022–2027',role:'PI',title:'Enhancing Human Abilities and Social Interaction in Context-Aware Pervasive XR',agency:'NSERC Discovery Grant'}
+];
+export const collaboratorLogos = [
+'/assets/support/AI-LOGO-VERTICAL_COLOUR.jpg','/assets/support/CIHR.png','/assets/support/cfi-logo.png','/assets/support/ecl-logo.png','/assets/support/sreal-logo.png','/assets/support/uvr_logo.png','/assets/support/VHIL.png','/assets/support/PusanNationalUniv.png','/assets/support/Stanford-University-Logo.png','/assets/support/UDel.png','/assets/support/UlsanUniv.png','/assets/support/SpaceTop Center.png'
 ];
