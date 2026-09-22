@@ -1,14 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title">
-  <title id="title">HXI X mark</title>
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#38BDF8"/>
-      <stop offset="45%" stop-color="#2563EB"/>
-      <stop offset="100%" stop-color="#7C3AED"/>
-    </linearGradient>
-  </defs>
-  <g fill="url(#g)">
-    <path d="M28 24h36l68 112H96z"/>
-    <path d="M132 24H96L28 136h36z"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+<defs><linearGradient id="xgrad1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38BDF8"/><stop offset="0.52" stop-color="#2563EB"/><stop offset="1" stop-color="#7C3AED"/></linearGradient><linearGradient id="xgrad2" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#38BDF8"/><stop offset="0.48" stop-color="#2563EB"/><stop offset="1" stop-color="#7C3AED"/></linearGradient></defs>
+<polygon points="46,40 91,40 194,200 149,200" fill="url(#xgrad1)" opacity="0.96"/>
+<polygon points="149,40 194,40 91,200 46,200" fill="url(#xgrad2)" opacity="0.92"/>
 </svg>

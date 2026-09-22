@@ -1,20 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" role="img" aria-labelledby="title desc">
-  <title id="title">HXI Lab</title><desc id="desc">Human-X Interaction Lab reversed logo</desc>
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#38BDF8"/>
-      <stop offset="45%" stop-color="#60A5FA"/>
-      <stop offset="100%" stop-color="#A78BFA"/>
-    </linearGradient>
-  </defs>
-  <g fill="#FFFFFF">
-    <path d="M42 34h36v44h56V34h36v112h-36v-42H78v42H42z"/>
-    <path d="M300 34h36v112h-36z"/>
-    <text x="382" y="111" font-family="Inter,Arial,sans-serif" font-size="58" font-weight="500" letter-spacing="8">LAB</text>
-    <text x="42" y="171" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="500" letter-spacing="7">HUMAN-X INTERACTION LAB</text>
-  </g>
-  <g fill="url(#g)">
-    <path d="M168 34h42l72 112h-42z"/>
-    <path d="M282 34h-42l-72 112h42z"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 260" width="880" height="260">
+<defs><linearGradient id="xgrad1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38BDF8"/><stop offset="0.52" stop-color="#2563EB"/><stop offset="1" stop-color="#7C3AED"/></linearGradient><linearGradient id="xgrad2" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#38BDF8"/><stop offset="0.48" stop-color="#2563EB"/><stop offset="1" stop-color="#7C3AED"/></linearGradient></defs>
+<rect x="42" y="38" width="33" height="150" fill="#FFFFFF"/>
+<rect x="158" y="38" width="33" height="150" fill="#FFFFFF"/>
+<rect x="42" y="96" width="149" height="34" fill="#FFFFFF"/>
+<polygon points="190.7,38 233.7,38 355.7,188 312.7,188" fill="url(#xgrad1)" opacity="0.96"/>
+<polygon points="312.7,38 355.7,38 233.7,188 190.7,188" fill="url(#xgrad2)" opacity="0.92"/>
+<rect x="355.4" y="38" width="35" height="150" fill="#FFFFFF"/>
+<text x="434.4" y="148" font-family="Inter, Arial, Helvetica, sans-serif" font-size="84" font-weight="400" fill="#FFFFFF">L</text>
+<text x="529.4" y="148" font-family="Inter, Arial, Helvetica, sans-serif" font-size="84" font-weight="400" fill="#FFFFFF">A</text>
+<text x="630.4" y="148" font-family="Inter, Arial, Helvetica, sans-serif" font-size="84" font-weight="400" fill="#FFFFFF">B</text>
+<text x="42" y="232" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#FFFFFF">H</text>
+<text x="65" y="232" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#FFFFFF">U</text>
+<text x="88" y="232" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#FFFFFF">M</text>
+<text x="111" y="232" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#FFFFFF">A</text>
+<text x="134" y="232" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#FFFFFF">N</text>
+<text x="157" y="232" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#FFFFFF">-</text>
+<text x="180" y="232" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#FFFFFF">X</text>
+<text x="232.9" y="232" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#FFFFFF">I</text>
+<text x="255.9" y="232" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#FFFFFF">N</text>
+<text x="278.9" y="232" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#FFFFFF">T</text>
+<text x="301.9" y="232" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#FFFFFF">E</text>
+<text x="324.9" y="232" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#FFFFFF">R</text>
+<text x="347.9" y="232" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#FFFFFF">A</text>
+<text x="370.9" y="232" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#FFFFFF">C</text>
+<text x="393.9" y="232" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#FFFFFF">T</text>
+<text x="416.9" y="232" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#FFFFFF">I</text>
+<text x="439.9" y="232" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#FFFFFF">O</text>
+<text x="462.9" y="232" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#FFFFFF">N</text>
+<text x="515.8" y="232" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#FFFFFF">L</text>
+<text x="538.8" y="232" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#FFFFFF">A</text>
+<text x="561.8" y="232" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#FFFFFF">B</text>
 </svg>
