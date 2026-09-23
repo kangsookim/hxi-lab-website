@@ -1241,7 +1241,7 @@ export const publications: Pub[] = [
     venue: "Proceedings of ICAT-EGVE, 2018, pp. 183–190.",
     doi: "https://doi.org/10.2312/egve.20181332",
     award: "Honourable Mention Award",
-    image: "/assets/publications/Kim2018rti.webp"
+    image: "/assets/publications/Kim2019bit.webp"
   },
   {
     year: 2018,
