@@ -629,7 +629,7 @@ export const publications: Pub[] = [
     authors: "Anh Nguyen, Hyeongil Nam, Emma Windfeld, Michael Francis, Guillaume Lhermie, and Kangsoo Kim",
     venue: "Proceedings of IEEE ISMAR Adjunct, 2024, pp. 630–631.",
     doi: "https://doi.org/10.1109/ISMAR-Adjunct64951.2024.00184",
-    image: "/assets/publications/Anh2024vdf.webp"
+    image: "/assets/publications/Nguyen2024vdf.webp"
   },
   {
     year: 2024,
@@ -679,7 +679,7 @@ export const publications: Pub[] = [
     authors: "Anh Nguyen, Seoyoung Kang, Woontack Woo, and Kangsoo Kim",
     venue: "Proceedings of IEEE VRW, 2024, pp. 885–886.",
     doi: "https://doi.org/10.1109/VRW62533.2024.00239",
-    image: "/assets/publications/Anh2024iti.webp"
+    image: "/assets/publications/Nguyen2024iti.webp"
   },
   {
     year: 2024,
