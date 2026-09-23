@@ -729,7 +729,7 @@ export const publications: Pub[] = [
     authors: "Anh Nguyen, Michael Francis, Emma Windfeld, Guillaume Lhermie, and Kangsoo Kim",
     venue: "Computers & Graphics, vol. 118, pp. 173–183, 2024.",
     doi: "https://doi.org/10.1016/j.cag.2023.12.011",
-    image: "/assets/publications/Nguyen2024dai.webp"
+    image: "/assets/publications/Nguyen2023dai.webp"
   },
   {
     year: 2023,
