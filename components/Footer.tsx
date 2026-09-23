@@ -7,7 +7,7 @@ export default function Footer() {
         <div>
           <Link href="/" className="footer-brand">
             <img
-              src="/assets/brand/hxi-logo-horizontal-white.svg"
+              src="/assets/brand/hxil-horizontal-dark.svg"
               alt="HXI Lab — Human-X Interaction Lab"
             />
           </Link>
