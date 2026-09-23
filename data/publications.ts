@@ -79,7 +79,7 @@ export const publications: Pub[] = [
     authors: "Myungjun Lee, Hyeongil Nam, Jennifer Davidson, Yiqun Lin, Adam Cheng, and Kangsoo Kim",
     venue: "Proceedings of IEEE ISMAR Adjunct: 2nd XRAI-SCA Workshop, 2026, pp. –.",
     status: "Accepted",
-    image: "/assets/publications/Lee2026ase.webp"
+    image: "/assets/publications/Lee2026agr.webp"
   },
   {
     year: 2026,
@@ -629,7 +629,7 @@ export const publications: Pub[] = [
     authors: "Anh Nguyen, Hyeongil Nam, Emma Windfeld, Michael Francis, Guillaume Lhermie, and Kangsoo Kim",
     venue: "Proceedings of IEEE ISMAR Adjunct, 2024, pp. 630–631.",
     doi: "https://doi.org/10.1109/ISMAR-Adjunct64951.2024.00184",
-    image: "/assets/publications/Anh2024iti.webp"
+    image: "/assets/publications/Anh2024vdf.webp"
   },
   {
     year: 2024,
@@ -729,7 +729,7 @@ export const publications: Pub[] = [
     authors: "Anh Nguyen, Michael Francis, Emma Windfeld, Guillaume Lhermie, and Kangsoo Kim",
     venue: "Computers & Graphics, vol. 118, pp. 173–183, 2024.",
     doi: "https://doi.org/10.1016/j.cag.2023.12.011",
-    image: "/assets/publications/Nguyen2024vdf.webp"
+    image: "/assets/publications/Nguyen2024dai.webp"
   },
   {
     year: 2023,
