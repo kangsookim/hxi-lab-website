@@ -49,7 +49,7 @@ export const publications: Pub[] = [
     authors: "Chuyang Zhang, Hyeongil Nam, and Kangsoo Kim",
     venue: "IEEE Transactions on Visualization and Computer Graphics (TVCG), 2026.",
     status: "Accepted",
-    image: "/assets/publications/Zhang2026pmi.webp"
+    image: "/assets/publications/Zhang2026upa.webp"
   },
   {
     year: 2026,
