@@ -96,7 +96,7 @@ export const publications: Pub[] = [
 
 export const latestNews = [
 {date:'2026-09-15',title:'Two conference papers accepted at ACM VRST 2026',tag:'Publications'},
-{date:'2026-09-05',title:"Roberto D'Amore joined HXI as a visiting graduate researcher from Polytechnic University of Bari",tag:'Team'},
+{date:'2026-09-05',title:"Roberto D'Amore joined HXIL as a visiting graduate researcher from Polytechnic University of Bari",tag:'Team'},
 {date:'2026-08-14',title:'Hyeongil Nam started a new chapter as a professor at Hanyang University ERICA',tag:'Team'},
 {date:'2026-08-13',title:'Six JBNU visiting undergraduate students completed a two-week XR Agent Development and Evaluation program',tag:'Lab'},
 {date:'2026-08-10',title:'Two poster papers accepted at ACM SUI 2026',tag:'Publications'},

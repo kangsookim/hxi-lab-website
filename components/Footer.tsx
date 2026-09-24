@@ -8,7 +8,7 @@ export default function Footer() {
           <Link href="/" className="footer-brand">
             <img
               src="/assets/brand/hxil-horizontal-dark.svg"
-              alt="HXI Lab — Human-X Interaction Lab"
+              alt="HXIL — Human-X Interaction Lab"
             />
           </Link>
 
@@ -47,8 +47,8 @@ export default function Footer() {
       </div>
 
       <div className="wrap footer-bottom">
-        <span>© 2021–2026 HXI Lab.</span>
-        <span>Human-centered XR + AI research.</span>
+        <span>© 2021–2026 HXIL.</span>
+        <span>X is the variable. Human is the constant.</span>
       </div>
     </footer>
   );
