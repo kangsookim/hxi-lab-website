@@ -1,0 +1,28 @@
+export type GalleryCategory = 'Conferences' | 'Lab Life' | 'Presentations' | 'Visitors' | 'Events';
+export type GalleryItem = { date:string; year:number; category:GalleryCategory; title:string; image:string };
+export const galleryItems: GalleryItem[] = [
+  {date:'2025-10-12', year:2025, category:'Conferences', title:'HXIL members @ ISMAR 2025', image:'/assets/gallery/2025-ismar.webp'},
+  {date:'2025-10-08', year:2025, category:'Conferences', title:'Mehdi and Arjun @ XRAI-SCA Workshop', image:'/assets/gallery/2025-xrai-sca.webp'},
+  {date:'2025-10-03', year:2025, category:'Events', title:'BrainLink X-Lab Day', image:'/assets/gallery/2025-brainlink.webp'},
+  {date:'2025-09-27', year:2025, category:'Presentations', title:"Kangsoo's Keynote @ APMAR 2025", image:'/assets/gallery/2025-apmar.webp'},
+  {date:'2025-09-11', year:2025, category:'Lab Life', title:"Omar's Farewell", image:'/assets/gallery/2025-omar-last-day.webp'},
+  {date:'2025-06-09', year:2025, category:'Lab Life', title:'Omar and Anh graduated! Congrats!', image:'/assets/gallery/2025-omaranh-graduate.webp'},
+  {date:'2025-05-09', year:2025, category:'Presentations', title:"Ryan's MSc Thesis Exam", image:'/assets/gallery/2025-ryan-msc-defense.webp'},
+  {date:'2025-01-10', year:2025, category:'Events', title:'InterFACE-AR Team Workshop @ IMSH 2025', image:'/assets/gallery/2025-interface-ar-workshop-imsh2025.webp'},
+  {date:'2025-01-10', year:2025, category:'Presentations', title:"Ryan's INSPIRE Shark Tank Presentation @ IMSH 2025", image:'/assets/gallery/2025-ryan-inspire-shark-tank-imsh2025.webp'},
+  {date:'2025-01-08', year:2025, category:'Lab Life', title:'W2025 Kick-off Meeting & Farewell for Michael and Anh', image:'/assets/gallery/2025-w25-kickoff.webp'},
+  {date:'2025-01-03', year:2025, category:'Presentations', title:'Michael MSc Thesis Exam', image:'/assets/gallery/2025-michael-msc-exam.webp'},
+  {date:'2024-11-16', year:2024, category:'Events', title:'Inuit Hub project workshop', image:'/assets/gallery/2024-inuit-hub-workshop.webp'},
+  {date:'2024-11-12', year:2024, category:'Events', title:'UCalgary XR Open House Demos', image:'/assets/gallery/2024-ucalgary-xr-open-house.webp'},
+  {date:'2024-11-07', year:2024, category:'Presentations', title:"Ryan's IPSSV 2024 Shark Tank Presentation — First Place", image:'/assets/gallery/2024-ryan-ipssv2024.webp'},
+  {date:'2024-10-25', year:2024, category:'Conferences', title:'IEEE ISMAR 2024 in Seattle', image:'/assets/gallery/2024-ismar.webp'},
+  {date:'2024-10-20', year:2024, category:'Presentations', title:"Hyeongil's WatchBuddy presentation at ISUVR 2024", image:'/assets/gallery/2024-hyeongil-isuvr.webp'},
+  {date:'2024-10-04', year:2024, category:'Visitors', title:"Dr. Heejin Jeong's talk", image:'/assets/gallery/2024-heejinjeong.webp'},
+  {date:'2024-09-05', year:2024, category:'Lab Life', title:'Semi hiking', image:'/assets/gallery/2024-semi-hiking.webp'},
+  {date:'2024-08-28', year:2024, category:'Presentations', title:'2024 ACHRI/Owerko Centre Summer Student Research Symposium', image:'/assets/gallery/2024-achri-symposium-mehak.webp'},
+  {date:'2024-08-15', year:2024, category:'Lab Life', title:"Muskan's small birthday celebration", image:'/assets/gallery/2024-muskan-birthday.webp'},
+  {date:'2024-03-21', year:2024, category:'Conferences', title:'IEEE VR 2024 in Orlando', image:'/assets/gallery/2024-ieeevr.webp'},
+  {date:'2024-03-17', year:2024, category:'Lab Life', title:'Kennedy Space Center', image:'/assets/gallery/2024-kennedy-space-center.webp'},
+  {date:'2023-10-20', year:2023, category:'Conferences', title:'IEEE ISMAR 2023 in Sydney', image:'/assets/gallery/2023-ismar.webp'},
+  {date:'2023-03-25', year:2023, category:'Presentations', title:'XRIOS 2023 poster presentation', image:'/assets/gallery/2023-xrios-poster.webp'},
+];

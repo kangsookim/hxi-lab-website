@@ -1,3 +1,4 @@
-import PageHeader from '@/components/PageHeader'; import {latestNews} from '@/data/site';
-const gallery=[['/assets/news/2025_ISMAR.jpg','HXI at ISMAR 2025'],['/assets/news/2025_XRAI-SCA.jpg','XRAI-SCA Workshop'],['/assets/news/2024_ISMAR.jpg','ISMAR 2024 · Seattle'],['/assets/news/2024_UCalgary XR Open House.jpg','UCalgary XR Open House'],['/assets/news/2024_Inuit Hub Workshop.jpg','Inuit Hub Workshop'],['/assets/news/2025_BrainLink.jpeg','BrainLink X-Lab Day']];
-export default function Page(){return <><PageHeader eyebrow="News" title="News & events" copy="Publications, awards, talks, visitors, student milestones, workshops, and snapshots from life in the HXI Lab."/><section className="section"><div className="wrap news-layout"><div className="news-list">{latestNews.map(n=><article className="news-item" key={n.date+n.title}><div><span className="news-tag">{n.tag}</span><time>{n.date}</time></div><h3>{n.title}</h3></article>)}</div><aside className="news-gallery">{gallery.map(g=><figure key={g[0]}><img src={g[0]} alt=""/><figcaption>{g[1]}</figcaption></figure>)}</aside></div></section></>}
+import PageHeader from '@/components/PageHeader';
+import NewsExplorer from '@/components/NewsExplorer';
+import NewsSubnav from '@/components/NewsSubnav';
+export default function Page(){return <><PageHeader eyebrow="News" title="News & events" copy="Research updates, awards, people, talks, visits, conferences, and milestones from HXIL."/><section className="section"><div className="wrap"><NewsSubnav active="news"/><NewsExplorer/></div></section></>}
