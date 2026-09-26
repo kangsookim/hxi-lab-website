@@ -48,7 +48,7 @@ export default function Footer() {
 
       <div className="wrap footer-bottom">
         <span>© 2021–2026 HXIL.</span>
-        <span>X is the variable. Human is the constant.</span>
+        <span>Designing immersive and intelligent technologies for people.</span>
       </div>
     </footer>
   );

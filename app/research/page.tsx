@@ -1,14 +1,16 @@
 import Link from 'next/link';
-import PageHeader from '@/components/PageHeader';
 import { applicationAreas, projects, researchThemes } from '@/data/site';
 
 export default function Page(){
   return <>
-    <PageHeader
-      eyebrow="Research"
-      title="Human-centered research at the intersection of XR and AI"
-      copy="We study how people perceive, interact, communicate, learn, and make decisions with emerging immersive and intelligent technologies."
-    />
+    <section className="research-hero">
+      <div className="research-hero-media"><img src="/assets/research/concepts/research-hero.webp" alt="Human-centered XR and AI research"/><div className="research-hero-shade"/></div>
+      <div className="wrap research-hero-content">
+        <div className="eyebrow light">Research</div>
+        <h1>Human-centered research at the intersection of XR and AI</h1>
+        <p>We study how people perceive, interact, communicate, learn, and make decisions with emerging immersive and intelligent technologies.</p>
+      </div>
+    </section>
 
     <section className="section research-intro-section">
       <div className="wrap research-intro">
