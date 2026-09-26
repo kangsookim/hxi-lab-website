@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { applicationAreas, projects, researchThemes } from '@/data/site';
 
 export default function Page(){
@@ -47,11 +46,5 @@ export default function Page(){
       </div>
     </section>
 
-    <section className="section research-action-section">
-      <div className="wrap">
-        <div className="section-title research-section-title inverted"><div><div className="eyebrow light">Research in Action</div><h2>Ideas connected to real problems</h2><p>Selected projects show how our research themes come together across healthcare, social interaction, training, and intelligent environments.</p></div><Link href="/projects" className="text-link light-link">View all projects →</Link></div>
-        <div className="research-action-grid">{projects.slice(0,4).map(p=><Link href="/projects" className="research-action-card" key={p.title}><img src={p.image} alt=""/><div><small>{p.label}</small><h3>{p.title}</h3><p>{p.text}</p></div></Link>)}</div>
-      </div>
-    </section>
   </>;
 }

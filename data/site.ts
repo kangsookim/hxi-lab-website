@@ -45,11 +45,11 @@ export const researchThemes = [
   {title:'XR Digital Twins & Intelligent Environments', kicker:'Digital Twins · Simulation · Industry', text:'We connect immersive interfaces, AI, analytics, and digital twins to help people understand, operate, train, and collaborate within complex physical systems.', image:'/assets/research/concepts/digital_twin.webp'}
 ];
 export const applicationAreas = [
+  {title:'Human Connection & Communication', text:'Avatars, virtual humans, social presence, remote communication, and relationships with intelligent agents.', image:'/assets/research/App02.jpeg'},
   {title:'Healthcare & Clinical Simulation', text:'Clinical decision support, resuscitation, immersive simulation, palliative care, maternal health, and health equity.', image:'/assets/research/App04.jpg'},
   {title:'Wellbeing & Mental Health', text:'Immersive experiences and intelligent agents that support stress recovery, reflection, connection, and psychological wellbeing.', image:'/assets/research/Research05.jpeg'},
   {title:'Education & Training', text:'Immersive learning, pedagogical agents, simulation-based education, public engagement, and skills development.', image:'/assets/research/App03.jpeg'},
-  {title:'Industry & Critical Systems', text:'Digital twins, safety, monitoring, training, operations, and knowledge transfer in complex technical environments.', image:'/assets/research/App01.jpeg'},
-  {title:'Human Connection & Communication', text:'Avatars, virtual humans, social presence, remote communication, and relationships with intelligent agents.', image:'/assets/research/App02.jpeg'}
+  {title:'Industry & Critical Systems', text:'Digital twins, safety, monitoring, training, operations, and knowledge transfer in complex technical environments.', image:'/assets/research/App01.jpeg'}
 ];
 export const projects = [
   {title:'CARE-XRAI', label:'Healthcare · XR + AI', text:'Cognitive and affective resilience enhancement through XR-AI agents for in-hospital resuscitation teams.', image:'/assets/research/App04.jpg', meta:'Government of Alberta · SPHIFR'},
