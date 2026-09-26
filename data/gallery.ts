@@ -35,7 +35,7 @@ export const galleryItems: GalleryItem[] = [
   {date:'2025-09-11', year:2025, tags:['Lab Life', 'Celebrations'], title:'Omar\'s Farewell', images:['/assets/gallery/2025/2025-omar-last-day.webp']},
   {date:'2025-07-17', year:2025, tags:['Lab Life', 'Celebrations'], title:'Ryan\'s Farewell', images:['/assets/gallery/2025/2025-ryan-farewell.webp']},
   {date:'2025-06-09', year:2025, tags:['Lab Life', 'Celebrations'], title:'Omar and Anh graduated! Congrats!', images:['/assets/gallery/2025/2025-omaranh-graduate.webp']},
-  {date:'2025-05-26', year:2025, tags:['Lab Life'], title:'IMPACT Cluster Social Gathering', images:['/assets/gallery/archive/2025/20250526.webp']},
+  {date:'2025-05-26', year:2025, tags:['Lab Life'], title:'IMPACT Cluster Social Gathering', images:['/assets/gallery/2025/20250526.webp']},
   {date:'2025-05-09', year:2025, tags:['Presentations', 'Celebrations'], title:'Ryan\'s MSc Thesis Exam', images:['/assets/gallery/2025/2025-ryan-msc-defense.webp']},
   {date:'2025-03-13', year:2025, tags:['Conferences'], title:'Omar, Hyeongil, and Kangsoo @ IEEE VR 2025', images:['/assets/gallery/2025/2025-ieee-vr.webp']},
   {date:'2025-01-10', year:2025, tags:['Presentations'], title:'Ryan\'s INSPIRE Shark Tank Presentation @ IMSH 2025', images:['/assets/gallery/2025/2025-ryan-inspire-shark-tank-imsh2025.webp']},
