@@ -19,8 +19,9 @@ export default function Home(){
         <img className="hero-slide hero-slide-1" src="/assets/home/hero/01-research.webp" alt="" />
         <img className="hero-slide hero-slide-2" src="/assets/home/hero/02-collaboration.webp" alt="" />
         <img className="hero-slide hero-slide-3" src="/assets/home/hero/03-presentation.webp" alt="" />
-        <img className="hero-slide hero-slide-4" src="/assets/home/hero/04-lab.webp" alt="" />
-        <img className="hero-slide hero-slide-5" src="/assets/home/hero/05-student-research.webp" alt="" />
+        <img className="hero-slide hero-slide-4" src="/assets/home/hero/04-research-dissemination.webp" alt="" />
+        <img className="hero-slide hero-slide-5" src="/assets/home/hero/05-presentation-community.webp" alt="" />
+        <img className="hero-slide hero-slide-6" src="/assets/home/hero/06-lab.webp" alt="" />
       </div>
       <div className="home-hero-blend" aria-hidden="true" />
       <div className="wrap home-hero-inner">
