@@ -27,7 +27,7 @@ export default function Home(){
   const latest = newsItems.slice(0,4);
   return <>
     <section className="home-hero">
-      <div className="home-hero-media"><img src="/assets/research/Research01.jpeg" alt="Immersive XR interaction"/><div className="home-hero-shade"/></div>
+      <div className="home-hero-media"><img src="/assets/research/concepts/research-hero.webp" alt="Immersive XR interaction"/><div className="home-hero-shade"/></div>
       <div className="wrap home-hero-inner">
         <div className="home-hero-copy">
           <div className="eyebrow light">Human-X Interaction Lab · University of Calgary</div>
