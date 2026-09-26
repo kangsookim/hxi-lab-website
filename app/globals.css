@@ -263,3 +263,50 @@
   .home-hero-split .home-hero-copy h1 br{display:none}
   .home-hero-split .home-hero-copy p{font-size:15px}
 }
+
+/* Homepage hero manual slide controls */
+.home-hero-rotator .hero-slide{
+  animation:none;
+  opacity:0;
+  transform:scale(1.018);
+  transition:opacity 1.15s ease,transform 8s ease;
+}
+.home-hero-rotator .hero-slide.is-active{
+  opacity:1;
+  transform:scale(1.01);
+}
+.home-hero-dots{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-top:34px;
+  position:relative;
+  z-index:5;
+}
+.home-hero-dots button{
+  width:10px;
+  height:10px;
+  padding:0;
+  border:0;
+  border-radius:50%;
+  background:rgba(255,255,255,.46);
+  cursor:pointer;
+  transition:background .2s ease,transform .2s ease,box-shadow .2s ease;
+}
+.home-hero-dots button:hover{
+  background:rgba(255,255,255,.78);
+  transform:scale(1.12);
+}
+.home-hero-dots button.is-active{
+  background:#fff;
+  transform:scale(1.2);
+  box-shadow:0 0 0 3px rgba(255,255,255,.12);
+}
+.home-hero-dots button:focus-visible{
+  outline:2px solid #78c8ff;
+  outline-offset:4px;
+}
+@media(max-width:560px){
+  .home-hero-dots{margin-top:28px;gap:10px}
+  .home-hero-dots button{width:9px;height:9px}
+}

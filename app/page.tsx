@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { publications } from '@/data/publications';
 import { newsItems } from '@/data/news';
+import HomeHero from '@/components/HomeHero';
 
 function shortVenue(venue:string){
   return venue
@@ -14,24 +15,7 @@ export default function Home(){
   const latestPubs = publications.slice(0,4);
   const latest = newsItems.slice(0,4);
   return <>
-    <section className="home-hero home-hero-split">
-      <div className="home-hero-rotator" aria-hidden="true">
-        <img className="hero-slide hero-slide-1" src="/assets/home/hero/01-research.webp" alt="" />
-        <img className="hero-slide hero-slide-2" src="/assets/home/hero/02-collaboration.webp" alt="" />
-        <img className="hero-slide hero-slide-3" src="/assets/home/hero/03-presentation.webp" alt="" />
-        <img className="hero-slide hero-slide-4" src="/assets/home/hero/04-research-dissemination.webp" alt="" />
-        <img className="hero-slide hero-slide-5" src="/assets/home/hero/05-presentation-community.webp" alt="" />
-        <img className="hero-slide hero-slide-6" src="/assets/home/hero/06-lab.webp" alt="" />
-      </div>
-      <div className="home-hero-blend" aria-hidden="true" />
-      <div className="wrap home-hero-inner">
-        <div className="home-hero-copy">
-          <div className="eyebrow light">Human-X Interaction Lab · University of Calgary</div>
-          <h1>Augmenting human<br/>capability through <em>XR + AI.</em></h1>
-          <p>We design and study immersive, intelligent, and human-centered technologies that transform how people interact, learn, collaborate, and make decisions.</p>
-        </div>
-      </div>
-    </section>
+    <HomeHero />
 
     <section className="home-section home-updates home-updates-minimal">
       <div className="wrap home-update-grid">
