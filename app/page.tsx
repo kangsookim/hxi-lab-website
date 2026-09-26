@@ -12,7 +12,6 @@ const researchAreas = [
   { title:'XR Digital Twins & Intelligent Environments', text:'Connecting people, physical systems, and intelligent virtual representations', image:'/assets/research/concepts/digital_twin.webp' },
 ];
 
-const xLabels = ['Human × XR','Human × AI','Human × Agents','Human × Healthcare','Human × Society'];
 
 function shortVenue(venue:string){
   return venue
@@ -27,7 +26,7 @@ export default function Home(){
   const latest = newsItems.slice(0,4);
   return <>
     <section className="home-hero">
-      <div className="home-hero-media"><img src="/assets/research/concepts/home-hero.webp" alt="Immersive XR interaction"/><div className="home-hero-shade"/></div>
+      <div className="home-hero-media"><img src="/assets/research/concepts/research-hero.webp" alt="Immersive XR interaction"/><div className="home-hero-shade"/></div>
       <div className="wrap home-hero-inner">
         <div className="home-hero-copy">
           <div className="eyebrow light">Human-X Interaction Lab · University of Calgary</div>
@@ -35,10 +34,6 @@ export default function Home(){
           <p>We design and study immersive, intelligent, and human-centered technologies that transform how people interact, learn, collaborate, and make decisions.</p>
           <div className="hero-actions"><Link className="btn primary" href="/research">Explore Our Research →</Link><Link className="btn ghost" href="/team">Meet the Team</Link></div>
         </div>
-        <div className="home-x-menu" aria-label="Human-X research dimensions">
-          {xLabels.map((x,i)=><div className={i===0?'active':''} key={x}>{x}</div>)}
-        </div>
-        
       </div>
     </section>
 

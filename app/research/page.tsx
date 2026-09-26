@@ -7,7 +7,15 @@ export default function Page(){
       eyebrow="Research"
       title="Human-centered research at the intersection of XR and AI"
       copy="We study how people perceive, interact, communicate, learn, and make decisions with emerging immersive and intelligent technologies."
-    />
+    >
+      <div className="research-x-dimensions" aria-label="Human-X research dimensions">
+        <span>Human × XR</span>
+        <span>Human × AI</span>
+        <span>Human × Agents</span>
+        <span>Human × Environments</span>
+        <span>Human × Society</span>
+      </div>
+    </PageHeader>
 
     <section className="section research-intro-section">
       <div className="wrap research-intro">
