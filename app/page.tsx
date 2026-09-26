@@ -1,17 +1,6 @@
 import Link from 'next/link';
-import { projects } from '@/data/site';
 import { publications } from '@/data/publications';
 import { newsItems } from '@/data/news';
-
-const researchAreas = [
-  { title:'Intelligent Agents & Social XR', text:'Embodied agents, avatars, and AI-mediated social interaction', image:'/assets/research/concepts/agents.webp' },
-  { title:'Perception, Embodiment & Presence', text:'Understanding perception, embodiment, presence, and behavior', image:'/assets/research/concepts/perception.webp' },
-  { title:'Adaptive & Multimodal Interfaces', text:'Interfaces that sense, understand, and respond to people and context', image:'/assets/research/concepts/adaptive.webp' },
-  { title:'Immersive Interaction & Pervasive XR', text:'Context-aware interaction across physical and virtual environments', image:'/assets/research/concepts/pervasive.webp' },
-  { title:'Human-AI Collaboration & Decision Support', text:'AI that augments human judgment, learning, and decision-making', image:'/assets/research/concepts/human_ai.webp' },
-  { title:'XR Digital Twins & Intelligent Environments', text:'Connecting people, physical systems, and intelligent virtual representations', image:'/assets/research/concepts/digital_twin.webp' },
-];
-
 
 function shortVenue(venue:string){
   return venue
@@ -25,33 +14,18 @@ export default function Home(){
   const latestPubs = publications.slice(0,4);
   const latest = newsItems.slice(0,4);
   return <>
-    <section className="home-hero">
-      <div className="home-hero-media"><img src="/assets/research/concepts/home-hero.webp" alt="Immersive XR interaction"/><div className="home-hero-shade"/></div>
+    <section className="home-hero home-hero-plain">
       <div className="wrap home-hero-inner">
         <div className="home-hero-copy">
           <div className="eyebrow light">Human-X Interaction Lab · University of Calgary</div>
           <h1>Augmenting human capability through <em>XR + AI.</em></h1>
           <p>We design and study immersive, intelligent, and human-centered technologies that transform how people interact, learn, collaborate, and make decisions.</p>
-          <div className="hero-actions"><Link className="btn primary" href="/research">Explore Our Research →</Link><Link className="btn ghost" href="/team">Meet the Team</Link></div>
+          <div className="hero-actions"><Link className="btn primary" href="/research">Explore Our Research →</Link><Link className="btn ghost" href="/publications">View Publications</Link></div>
         </div>
       </div>
     </section>
 
-    <section className="home-section home-research">
-      <div className="wrap">
-        <div className="home-section-head"><div><div className="eyebrow">Research Areas</div><h2>Our Research</h2><p>We study immersive and intelligent technologies through six interconnected research themes centered on human experience, capability, and agency.</p></div><Link href="/research" className="text-link">View all research areas →</Link></div>
-        <div className="home-research-grid">{researchAreas.map(r=><Link href="/research" className="home-research-card" key={r.title}><img src={r.image} alt=""/><h3>{r.title}</h3><p>{r.text}</p><span>→</span></Link>)}</div>
-      </div>
-    </section>
-
-    <section className="home-section home-projects">
-      <div className="wrap">
-        <div className="home-section-head inverted"><div><div className="eyebrow light">Featured Projects</div><h2>Featured Projects</h2><p>From healthcare to social XR, our research creates real-world impact.</p></div><Link href="/projects" className="text-link light-link">View all projects →</Link></div>
-        <div className="home-project-grid">{projects.slice(0,3).map(p=><Link href="/projects" className="home-project-card" key={p.title}><div className="home-project-image"><img src={p.image} alt=""/></div><div className="home-project-overlay"><small>{p.label}</small><h3>{p.title}</h3><p>{p.text}</p><span className="home-arrow">→</span></div></Link>)}</div>
-      </div>
-    </section>
-
-    <section className="home-section home-updates">
+    <section className="home-section home-updates home-updates-minimal">
       <div className="wrap home-update-grid">
         <div>
           <div className="home-section-head compact"><div><div className="eyebrow">Publications</div><h2>Latest Publications</h2><p>Recent papers from our lab.</p></div><Link href="/publications" className="text-link">View all publications →</Link></div>
