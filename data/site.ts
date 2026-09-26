@@ -37,17 +37,19 @@ export const alumni: Member[] = [
 ];
 
 export const researchThemes = [
-  {title:'Immersive Interaction', kicker:'XR · Spatial Computing', text:'We design pervasive AR, VR, and MR experiences that connect physical and digital environments and support natural interaction.', image:'/assets/research/Research01.jpeg'},
-  {title:'Human-AI Interaction', kicker:'Agents · Adaptation · Trust', text:'We study intelligent virtual agents, AI-guided interfaces, personalization, and how AI behavior shapes human judgment and relationships.', image:'/assets/research/Research03.jpeg'},
-  {title:'Human Factors', kicker:'Perception · Cognition · Presence', text:'We investigate perception, cognition, social presence, embodiment, workload, trust, and behavior in immersive environments.', image:'/assets/research/Research02.jpeg'},
-  {title:'Multimodal & Augmented Human', kicker:'Gaze · Voice · Physiology', text:'We combine multimodal sensing and interaction to extend human capability while preserving agency, autonomy, and meaningful control.', image:'/assets/research/Research05.jpeg'},
-  {title:'XR + AI Digital Twins', kicker:'Simulation · Decision Support', text:'We connect immersive interfaces, intelligent agents, analytics, and digital twins for complex operational and training contexts.', image:'/assets/research/Research06.jpeg'}
+  {title:'Immersive Interaction & Pervasive XR', kicker:'XR · Spatial Computing · Context', text:'We design context-aware AR, VR, and MR interactions that connect physical and virtual environments and make immersive computing more natural, situated, and useful.', image:'/assets/research/Research01.jpeg'},
+  {title:'Intelligent Agents & Social XR', kicker:'Virtual Humans · Agents · Social Interaction', text:'We study embodied agents, avatars, and AI-mediated interaction, including how appearance, behavior, personality, and responsiveness shape trust and social experience.', image:'/assets/research/App02.jpeg'},
+  {title:'Perception, Embodiment & Presence', kicker:'Perception · Cognition · Experience', text:'We investigate how people perceive and experience immersive environments, with a focus on embodiment, spatial perception, social presence, and human behavior.', image:'/assets/research/Research02.jpeg'},
+  {title:'Adaptive & Multimodal Interfaces', kicker:'Gaze · Voice · Gesture · Physiology', text:'We combine multimodal sensing, user modeling, and adaptive interaction to create interfaces that understand and respond to people, tasks, and context.', image:'/assets/research/Research05.jpeg'},
+  {title:'Human-AI Collaboration & Decision Support', kicker:'Trust · Judgment · Learning', text:'We design AI-enabled systems that support human judgment, learning, and decision-making while preserving agency, meaningful control, and appropriate reliance.', image:'/assets/research/Research03.jpeg'},
+  {title:'XR Digital Twins & Intelligent Environments', kicker:'Digital Twins · Simulation · Industry', text:'We connect immersive interfaces, AI, analytics, and digital twins to help people understand, operate, train, and collaborate within complex physical systems.', image:'/assets/research/Research06.jpeg'}
 ];
 export const applicationAreas = [
-  {title:'Healthcare', text:'Clinical decision support, resuscitation training, mental wellbeing, palliative care, maternal health, and health equity.', image:'/assets/research/App04.jpg'},
-  {title:'Education & Training', text:'Immersive learning, pedagogical agents, authentic assessment, simulation, and serious games.', image:'/assets/research/App03.jpeg'},
-  {title:'Social Interaction', text:'Avatars, virtual humans, social presence, relationships with AI agents, and collaborative XR.', image:'/assets/research/App02.jpeg'},
-  {title:'Industry & Digital Twins', text:'Safety, operations, maintenance, collaboration, analytics, and immersive digital twins.', image:'/assets/research/App01.jpeg'}
+  {title:'Healthcare & Clinical Simulation', text:'Clinical decision support, resuscitation, immersive simulation, palliative care, maternal health, and health equity.', image:'/assets/research/App04.jpg'},
+  {title:'Wellbeing & Mental Health', text:'Immersive experiences and intelligent agents that support stress recovery, reflection, connection, and psychological wellbeing.', image:'/assets/research/Research05.jpeg'},
+  {title:'Education & Training', text:'Immersive learning, pedagogical agents, simulation-based education, public engagement, and skills development.', image:'/assets/research/App03.jpeg'},
+  {title:'Industry & Critical Systems', text:'Digital twins, safety, monitoring, training, operations, and knowledge transfer in complex technical environments.', image:'/assets/research/App01.jpeg'},
+  {title:'Human Connection & Communication', text:'Avatars, virtual humans, social presence, remote communication, and relationships with intelligent agents.', image:'/assets/research/App02.jpeg'}
 ];
 export const projects = [
   {title:'CARE-XRAI', label:'Healthcare · XR + AI', text:'Cognitive and affective resilience enhancement through XR-AI agents for in-hospital resuscitation teams.', image:'/assets/research/App04.jpg', meta:'Government of Alberta · SPHIFR'},
