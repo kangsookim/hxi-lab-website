@@ -18,10 +18,10 @@ export const currentMembers: Member[] = [
     {label:'LinkedIn',url:'https://www.linkedin.com//in/taeyeon-kim-7a49b5277'},
     {label:'Google Scholar',url:'https://scholar.google.com/citations?user=TfcLuIMAAAAJ'}
   ]},
-  {name:'Chuyang Zhang', role:'Ph.D. Student · ESE', period:'2025.09–Present', group:'Graduate Students', image:'/assets/team/ChuyangZHANG.png', email:'chuyang.zhang1[at]ucalgary[dot]ca',
+  {name:'Chuyang Zhang', role:'Ph.D. Student · ESE', period:'2025.09–Present', group:'Graduate Students', image:'/assets/team/ChuyangZHANG.png', email:'chuyang.zhang1[at]ucalgary[dot]ca', links:[
     {label:'LinkedIn',url:'https://www.linkedin.com/in/iwnlcyan/'},
     {label:'Google Scholar',url:'https://scholar.google.com/citations?user=7Gc7x-IAAAAJ'}
-  },
+  ]},
   {name:'Jessica Kim', role:'M.Sc. Student · BME', period:'2025.01–Present', history:'Previously: Research Intern · B.Sc. in Psychology, UBC · 2024.09–2024.12', group:'Graduate Students', image:'/assets/team/JessicaKIM.png', email:'jessica.kim2[at]ucalgary[dot]ca', links:[
     {label:'LinkedIn',url:'https://www.linkedin.com/in/jessica-jeewoo-kim'}
   ]},
@@ -29,7 +29,7 @@ export const currentMembers: Member[] = [
     {label:'LinkedIn',url:'https://www.linkedin.com/in/mlmj'}
   ]},
   {name:'Tafreed Ahmad', role:'M.Sc. Student · ESE', period:'2025.09–Present', group:'Graduate Students', image:'/assets/team/TafreedAHMAD.png', email:'tafreed.ahmad2[at]ucalgary[dot]ca', links:[
-    {label:'LinkedIn',url:'https://www.linkedin.com/in/tafreed-ahmad01'}
+    {label:'LinkedIn',url:'https://www.linkedin.com/in/tafreed-ahmad01'},
     {label:'Google Scholar',url:'https://scholar.google.com/citations?user=P5AoWNcAAAAJ'}
   ]},
   {name:'Mehak Kaur', role:'B.Sc. Student · ESE', period:'2026.09–Present', history:'Previously: B.Sc. Student · ESE · 2024.05–2025.12', group:'Undergraduate Researchers', image:'/assets/team/MehakKAUR.png', email:'mehakdeep.kaur[at]ucalgary[dot]ca', links:[
