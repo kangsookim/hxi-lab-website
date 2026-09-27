@@ -19,13 +19,13 @@ type ProjectProgram = {
 
 const projectPrograms: ProjectProgram[] = [
   {
-    title: 'Socially Intelligent Virtual Humans',
-    question: 'How can virtual humans become meaningful social partners?',
+    title: 'Intelligent Virtual Agents & Social Connection',
+    question: 'How can intelligent virtual agents support meaningful social connection?',
     description:
-      'We design and study embodied virtual humans that communicate, respond, and form meaningful social relationships with people through verbal, nonverbal, affective, and multimodal interaction.',
-    tags: ['Virtual Humans', 'Social Presence', 'Agent Personality', 'Empathy'],
-    mainImage: '/assets/publications/Nam2026sra.webp',
-    mainCaption: 'XR companions · responsiveness and relational openness',
+      'We investigate how intelligent virtual agents and immersive technologies can support social interaction, communication, and meaningful connections between people and virtual beings—and among people themselves.',
+    tags: ['Virtual Agents', 'Social Presence', 'Agent Personality', 'Social Connection'],
+    mainImage: '/assets/publications/Nam2025eoa.webp',
+    mainCaption: 'AI-powered embodied avatars · communication and social connection',
     studies: [
       {
         title: 'The Dominance Effect',
@@ -142,9 +142,9 @@ const projectPrograms: ProjectProgram[] = [
         image: '/assets/publications/Fouad2026btd.webp',
       },
       {
-        title: 'Memory-Linked Objects in XR',
-        meta: 'CHI EA 2026 · Memory, meaning & reflection',
-        image: '/assets/publications/Ahmed2026eed.webp',
+        title: 'XR Companion Interaction',
+        meta: 'TVCG 2026 · Relational openness & reflection',
+        image: '/assets/publications/Nam2026sra.webp',
       },
     ],
   },
