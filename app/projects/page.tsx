@@ -13,7 +13,8 @@ type ProjectProgram = {
   description: string;
   tags: string[];
   mainImage: string;
-  mainCaption: string;
+  mainTitle: string;
+  mainMeta: string;
   studies: Study[];
 };
 
@@ -25,7 +26,8 @@ const projectPrograms: ProjectProgram[] = [
       'We investigate how intelligent virtual agents and immersive technologies can support social interaction, communication, and meaningful connections between people and virtual beings—and among people themselves.',
     tags: ['Virtual Agents', 'Social Presence', 'Agent Personality', 'Social Connection'],
     mainImage: '/assets/publications/Nam2025eoa.webp',
-    mainCaption: 'AI-powered embodied avatars · communication and social connection',
+    mainTitle: 'AI-Powered Embodied Avatars',
+    mainMeta: 'TVCG 2025 · Communication & social connection',
     studies: [
       {
         title: 'The Dominance Effect',
@@ -51,7 +53,8 @@ const projectPrograms: ProjectProgram[] = [
       'We investigate how avatars and virtual bodies shape identity, self-perception, embodiment, behavior, interpersonal perception, and interaction across immersive environments.',
     tags: ['Avatars', 'Embodiment', 'Identity', 'Perception'],
     mainImage: '/assets/publications/Kang2025hcc.webp',
-    mainCaption: 'Avatar identity representation · context and personality',
+    mainTitle: 'Human-to-Avatar Identity Representation',
+    mainMeta: 'TVCG / IEEE VR 2025 · Identity & personality',
     studies: [
       {
         title: 'Avatar–Locomotion Congruence',
@@ -77,7 +80,8 @@ const projectPrograms: ProjectProgram[] = [
       'We develop XR systems that sense and model users—their behavior, emotion, physiology, preferences, and context—and adapt interfaces, agents, and interaction accordingly.',
     tags: ['User Modeling', 'Affective Computing', 'Multimodal Interaction', 'Adaptation'],
     mainImage: '/assets/publications/Chang2025epe.webp',
-    mainCaption: 'Context-aware adaptation · empathic mixed reality agents',
+    mainTitle: 'Context-Aware Empathic MR Agents',
+    mainMeta: 'TVCG 2026 · Empathy & adaptive interaction',
     studies: [
       {
         title: 'User Profiling & Modeling in XR',
@@ -103,7 +107,8 @@ const projectPrograms: ProjectProgram[] = [
       'We create intelligent XR systems for clinical decision support, team training, healthcare education, and culturally responsive simulation in complex, time-critical environments.',
     tags: ['Clinical Simulation', 'Decision Support', 'AI Guidance', 'Team Training'],
     mainImage: '/assets/publications/Kang2025ard.webp',
-    mainCaption: 'AR decision support for cardiopulmonary arrest',
+    mainTitle: 'AR Decision Support for Cardiopulmonary Arrest',
+    mainMeta: 'IMSH 2025 · Clinical decision support',
     studies: [
       {
         title: 'AR-Guided Pediatric Resuscitation',
@@ -129,7 +134,8 @@ const projectPrograms: ProjectProgram[] = [
       'We explore how immersive experiences can support restoration, emotional recovery, reflection, meaningful connection, culturally situated care, and engagement with places and memories.',
     tags: ['Wellbeing', 'Stress & Recovery', 'Nature', 'Memory & Reflection'],
     mainImage: '/assets/publications/Han2023acs.webp',
-    mainCaption: 'Immersive activities for stress relief and recovery',
+    mainTitle: 'VR Activities for Stress Relief',
+    mainMeta: 'ISMAR 2023 · Stress relief & recovery',
     studies: [
       {
         title: 'Immersive Virtual Nature',
@@ -155,7 +161,8 @@ const projectPrograms: ProjectProgram[] = [
       'We combine XR, AI, and digital twins to help people monitor, navigate, understand, collaborate around, and interact with complex physical systems and intelligent environments.',
     tags: ['Digital Twins', 'Industrial XR', 'Spatial Interaction', 'Human-AI Collaboration'],
     mainImage: '/assets/publications/Marzban2025aid.webp',
-    mainCaption: 'Immersive digital twin · pipeline leak simulation and monitoring',
+    mainTitle: 'Immersive Digital Twin for Pipeline Monitoring',
+    mainMeta: 'ISMAR XRAI-SCA 2025 · Leak simulation & monitoring',
     studies: [
       {
         title: 'SHAPE: XR + AI Digital Twin',
@@ -207,7 +214,10 @@ export default function Page() {
               <div className="project-program-visual">
                 <div className="project-program-main-image">
                   <img src={project.mainImage} alt="" />
-                  <span>{project.mainCaption}</span>
+                </div>
+                <div className="project-program-main-info">
+                  <strong>{project.mainTitle}</strong>
+                  <small>{project.mainMeta}</small>
                 </div>
               </div>
 
