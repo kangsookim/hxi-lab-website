@@ -341,3 +341,37 @@
 .project-publications-link span{font-size:17px;transition:transform .2s ease}.project-publications-link:hover span{transform:translateX(3px)}
 @media(max-width:980px){.projects-portfolio-intro-grid{grid-template-columns:1fr;gap:26px}.project-program,.project-program-reverse{grid-template-columns:1fr;gap:34px;padding:64px 0}.project-program-reverse .project-program-visual,.project-program-reverse .project-program-copy{order:initial}.project-program-visual{position:static}.project-program-main-image{min-height:340px}.project-program-copy h2{max-width:760px}.project-program-copy h3,.project-program-copy>p{max-width:760px}}
 @media(max-width:640px){.projects-portfolio-intro{padding-bottom:52px}.project-program{padding:52px 0}.project-program-main-image{min-height:260px;padding:12px}.project-program-copy h2{font-size:36px}.project-program-copy h3{font-size:18px}.project-study-grid{grid-template-columns:1fr 1fr}.project-study-grid .project-study:last-child{grid-column:1 / -1}.project-study-grid .project-study:last-child .project-study-image{height:130px}.project-study-image{height:105px}}
+
+/* Funding & Collaborators — editorial grant presentation */
+.funding-section-title{align-items:start}
+.funding-section-title>div>p{max-width:760px;color:#647286;margin:12px 0 0;line-height:1.65}
+.funding-list-editorial article{grid-template-columns:140px minmax(0,1fr);gap:42px;padding:30px 0}
+.funding-list-editorial .fund-year{padding-top:5px;font-size:12px;font-weight:800;letter-spacing:.08em;color:#52708f}
+.funding-list-editorial h3{font-size:24px;line-height:1.25;letter-spacing:-.02em;margin:0 0 8px;max-width:920px}
+.funding-list-editorial .fund-agency{font-size:13px;font-weight:750;color:#315d88;margin:0 0 10px}
+.funding-list-editorial .fund-description{font-size:14px;line-height:1.62;color:#68778a;margin:0;max-width:860px}
+@media(max-width:700px){.funding-list-editorial article{grid-template-columns:1fr;gap:8px;padding:24px 0}.funding-list-editorial .fund-year{padding-top:0}.funding-list-editorial h3{font-size:21px}}
+
+/* Funding sub-navigation and past support archive */
+.funding-subnav{display:inline-flex;gap:6px;padding:5px;margin-bottom:38px;border:1px solid var(--line);border-radius:999px;background:#f8fafc}
+.funding-subnav a{padding:10px 17px;border-radius:999px;font-size:13px;font-weight:750;color:#5c6978}
+.funding-subnav a.active{background:#10233b;color:#fff}
+.past-funding-list article{grid-template-columns:125px minmax(0,1fr);gap:34px;padding:23px 0}
+.past-funding-list .fund-year{padding-top:4px;font-size:12px;font-weight:800;letter-spacing:.07em;color:#6a7d91}
+.past-funding-list h3{font-size:20px;line-height:1.3;letter-spacing:-.015em;margin:0 0 6px;max-width:900px}
+.past-funding-list .fund-agency{font-size:12.5px;font-weight:750;color:#3d668d;margin:0 0 7px}
+.past-funding-list .fund-description{font-size:13.5px;line-height:1.58;color:#718093;margin:0;max-width:850px}
+@media(max-width:700px){.past-funding-list article{grid-template-columns:1fr;gap:7px;padding:21px 0}.past-funding-list .fund-year{padding-top:0}}
+@media(max-width:580px){.funding-subnav{display:flex;width:100%}.funding-subnav a{flex:1;text-align:center;padding:10px 12px;font-size:12px}}
+
+
+/* Funding agency logo wall */
+.funding-agency-wall .logo-card{min-height:150px;height:auto;padding:24px}
+.funding-agency-wall .logo-card-pending{background:rgba(255,255,255,.62);border-style:dashed}
+.logo-placeholder{width:100%;height:100%;min-height:100px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:8px;color:#344054}
+.logo-placeholder strong{font-size:14px;line-height:1.35;font-weight:700;max-width:220px}
+.logo-placeholder span{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#98a2b3}
+
+/* Research collaborator logo wall */
+.collaborator-wall .logo-card{height:150px;padding:24px}
+.collaborator-wall .logo-card img{max-height:92px;max-width:92%;width:auto;height:auto;object-fit:contain}

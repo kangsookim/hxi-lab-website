@@ -149,16 +149,59 @@ export const latestNews = [
 ];
 
 export const funding = [
-{period:'2026–2028',role:'PI',title:'Cognitive and Affective Resilience Enhancement through XR-AI Agents for In-Hospital Resuscitation Teams',agency:'Government of Alberta · SPHIFR'},
-{period:'2025–2026',role:'PI',title:'AI-Powered AR Decision Support System to Assist In-Hospital Resuscitation Teams',agency:'UCalgary Schulich Momentum Grant'},
-{period:'2025–2030',role:'Co-Applicant',title:'Keeping the Children Home: Policy change to improve sexual and reproductive healthcare for Kivallirmiut in Nunavut',agency:'CIHR Project Grant'},
-{period:'2025–2030',role:'Co-PI',title:'Keeping the Children Home: How CPS and SRHR impact the physical and mental health of Inuit youth in Nunavut',agency:'CIHR Team Grant · Healthy Youth – Indigenous'},
-{period:'2024–2029',role:'PI',title:'Designing and Evaluating Novel eXtended Reality User Interfaces for Effective Multi-User Social Interactions',agency:'Canada Foundation for Innovation · JELF'},
-{period:'2024–2026',role:'Co-PI',title:'Safe Hydrogen Pipelines: Digital Transformation and Leak Detection through AI and Digital Twinning',agency:'Alberta Innovates · Hydrogen Centre of Excellence'},
-{period:'2024–2027',role:'Co-PI',title:'AR-Screen: Evaluation of a Decision Support System for Cardiac Arrest',agency:'LevMax Health Grant · Alberta Innovates'},
-{period:'2023–2027',role:'Co-PI',title:'Inuit Perinatal Health Hub: Building Inuit-Specific Resources and Support for Inuit Women in the Kivalliq Region',agency:'CIHR · National Women’s Health Research Initiative'},
-{period:'2022–2027',role:'PI',title:'Enhancing Human Abilities and Social Interaction in Context-Aware Pervasive XR',agency:'NSERC Discovery Grant'}
+{period:'2026–2028',title:'Cognitive and Affective Resilience Enhancement through XR-AI Agents for In-Hospital Resuscitation Teams',agency:'Government of Alberta · Supporting Psychological Health in First Responders (SPHIFR)',description:'Developing XR-AI approaches for cognitive and affective resilience following high-stress in-hospital resuscitation events.'},
+{period:'2025–2026',title:'AI-Powered AR Decision Support for Resuscitation Teams',agency:'UCalgary · Transdisciplinary Connector Grants — Consolidating Stream',description:'Advancing AI-powered augmented reality decision support for resuscitation teams through interdisciplinary collaboration.'},
+{period:'2025–2030',title:'Keeping the Children Home: Policy Change to Improve Sexual and Reproductive Healthcare for Kivallirmiut in Nunavut',agency:'Canadian Institutes of Health Research (CIHR) · Project Grant',description:'Supporting research on policy change and sexual and reproductive healthcare for Kivallirmiut in Nunavut.'},
+{period:'2025–2030',title:'Keeping the Children Home: How CPS and SRHR Impact the Physical and Mental Health of Inuit Youth in Nunavut',agency:'Canadian Institutes of Health Research (CIHR) · Team Grant: Healthy Youth — Indigenous',description:'Investigating relationships among child protective services, sexual and reproductive health and rights, and Inuit youth health in Nunavut.'},
+{period:'2024–2029',title:'Designing and Evaluating Novel eXtended Reality User Interfaces for Effective Multi-User Social Interactions',agency:'Canada Foundation for Innovation (CFI) · John R. Evans Leaders Fund',description:'Supporting infrastructure for designing and evaluating advanced multi-user XR interfaces and social interaction.'},
+{period:'2024–2026',title:'Safe Hydrogen Pipelines: Digital Transformation and Leak Detection of Hydrogen Pipelines Through Artificial Intelligence and Digital Twinning',agency:'Alberta Innovates · Hydrogen Centre of Excellence',description:'Developing AI- and digital-twin-enabled approaches for hydrogen pipeline monitoring, visualization, and leak detection.'},
+{period:'2024–2026',title:'EMOGENT: Developing Emotionally Communicative Mixed Reality Agent for Empathic Social Interaction',agency:'NSERC Alliance · Alberta Innovates Advance Program — Stream 2',description:'Developing emotionally communicative mixed reality agents for empathic social interaction.'},
+{period:'2024–2027',title:'AR-Screen: Evaluation of a Decision Support System for Cardiac Arrest',agency:'Alberta Innovates · LevMax Health Grant',description:'Evaluating augmented reality decision support for cardiac arrest in a multicentre randomized controlled trial.'},
+{period:'2023–2027',title:'Inuit Perinatal Health Hub: Building Inuit-Specific Resources and Support for Inuit Women in the Kivalliq Region, Nunavut',agency:'Canadian Institutes of Health Research (CIHR) · National Women’s Health Research Initiative',description:'Supporting the development of Inuit-specific resources and support for women in the Kivalliq region of Nunavut.'},
+{period:'2022–2027',title:'Enhancing Human Abilities and Social Interaction in Context-Aware Pervasive XR',agency:'Natural Sciences and Engineering Research Council of Canada (NSERC) · Discovery Grant',description:'Developing context-aware pervasive XR and studying multimodal embodied experiences that augment human abilities and social interaction.'}
 ];
+
+export const pastFunding = [
+{period:'2025–2026',title:'Artificial Intelligence (AI)–Powered Augmented Reality (AR) Decision Support System to Assist In-Hospital Resuscitation Teams',agency:'UCalgary · Schulich Momentum Grant',description:'Supported development of AI-powered augmented reality decision support for in-hospital resuscitation teams.'},
+{period:'2025–2026',title:'Optimal Digital Technologies to Improve Youth Mental Health',agency:'UCalgary · VPR Catalyst Grant',description:'Supported interdisciplinary research on digital technologies for youth mental health.'},
+{period:'2023–2026',title:'Building an Immersive Multimodal Virtual Training Framework for Undergraduate Nursing Education',agency:'UCalgary · Transdisciplinary Connector Grants — Initiating & Consolidating Streams',description:'Supported the development and continuation of immersive, multimodal virtual training for undergraduate nursing education.'},
+{period:'2021–2025',title:'University of Calgary Start-up Funding',agency:'University of Calgary',description:'Supported the establishment and early development of HXIL’s research program and infrastructure.'},
+{period:'2023–2025',title:'AR-Screen: Development of a Decision Support System for Cardiac Arrest',agency:'Alberta Children’s Hospital Research Institute · Department of Pediatrics · Alberta Children’s Hospital Foundation',description:'Supported development of augmented reality decision support for cardiac arrest resuscitation.'},
+{period:'2023–2025',title:'Development and Multicentric Evaluation of an Augmented Reality and Screen-Based Decision Support System for Cardiopulmonary Arrest',agency:'Geneva University Hospitals (HUG) Foundation',description:'Supported international development and multicentre evaluation of augmented reality and screen-based resuscitation decision support.'},
+{period:'2023–2025',title:'Enhancing Human Abilities and Social Interaction in Context-Aware Pervasive XR — Supplement',agency:'NSERC Alliance · Alberta Innovates Advance Program — Stream 1',description:'Provided supplementary support for the lab’s context-aware pervasive XR research program.'},
+{period:'2022–2024',title:'UCalgary–KAIST Workshop on the Future of eXtended Reality',agency:'UCalgary International · International Research Partnership Workshop Grant',description:'Supported an international XR research partnership and workshop between UCalgary and KAIST.'},
+{period:'2022',title:'A Survey of Physically Plausible Virtual Interactions in XR',agency:'Electronics and Telecommunications Research Institute (ETRI)',description:'Supported research on use cases and benefits of physically plausible interactions in extended reality.'},
+{period:'2022',title:'Developing Realistic On-Farm Experience in VR',agency:'Schulich School of Engineering Summer Studentships · The Simpson Centre',description:'Supported development of an immersive virtual farm experience for public education.'}
+];
+
+export const fundingAgencyLogos = [
+{name:'Government of Alberta', image:'/assets/funding/government-of-alberta.webp'},
+{name:'Natural Sciences and Engineering Research Council of Canada (NSERC)', image:'/assets/funding/nserc.webp'},
+{name:'Canadian Institutes of Health Research (CIHR)', image:'/assets/funding/cihr.webp'},
+{name:'Canada Foundation for Innovation (CFI)', image:'/assets/funding/cfi.webp'},
+{name:'Alberta Innovates', image:'/assets/funding/alberta-innovates.webp'},
+{name:'University of Calgary', image:'/assets/funding/university-of-calgary.webp'},
+{name:"Alberta Children’s Hospital Research Institute (ACHRI)", image:'/assets/funding/achri.webp'},
+{name:"Alberta Children’s Hospital Foundation", image:'/assets/funding/ach-foundation.webp'},
+{name:'Electronics and Telecommunications Research Institute (ETRI)', image:'/assets/funding/etri.webp'},
+{name:'The Simpson Centre', image:'/assets/funding/simpson-centre.webp'},
+];
+
 export const collaboratorLogos = [
-'/assets/support/AI-LOGO-VERTICAL_COLOUR.jpg','/assets/support/CIHR.png','/assets/support/cfi-logo.png','/assets/support/ecl-logo.png','/assets/support/sreal-logo.png','/assets/support/uvr_logo.png','/assets/support/VHIL.png','/assets/support/PusanNationalUniv.png','/assets/support/Stanford-University-Logo.png','/assets/support/UDel.png','/assets/support/UlsanUniv.png','/assets/support/SpaceTop Center.png'
+{name:'UVR Lab — KAIST', image:'/assets/collaborators/kaist-uvr-lab.webp'},
+{name:'Mixed Reality Lab — Hanyang University', image:'/assets/collaborators/mr-lab.webp'},
+{name:'Human-Centered Technology Lab — Hanyang University ERICA', image:'/assets/collaborators/hct-lab.webp'},
+{name:'Empathic Computing Lab — University of South Australia', image:'/assets/collaborators/ecl.webp'},
+{name:"KidSIM — Alberta Children’s Hospital", image:'/assets/collaborators/kidsim.webp'},
+{name:'VizUS Lab — Utah State University', image:'/assets/collaborators/utah-state-university.svg'},
+{name:'Keeping the Children Home — University of Calgary', image:'/assets/collaborators/keeping-children-home.webp'},
+{name:'Pipeline Engineering Centre — University of Calgary', image:'/assets/collaborators/pipeline-engineering-centre.webp'},
+{name:'XR Lab — Pusan National University', image:'/assets/collaborators/pnu-xr-lab.webp'},
+{name:'University Hospitals of Geneva (HUG)', image:'/assets/collaborators/hug.webp'},
+{name:'AIoT Lab — Hankyong National University', image:'/assets/collaborators/aiot-lab.webp'},
+{name:'Virtual Human Interaction Lab — Stanford University', image:'/assets/collaborators/vhil.webp'},
+{name:'SREAL — University of Central Florida', image:'/assets/collaborators/sreal.webp'},
+{name:'HCI Lab — University of Delaware', image:'/assets/collaborators/udel-hci-lab.webp'},
+{name:'I-CON Lab — Gyeongsang National University', image:'/assets/collaborators/icon-lab.webp'},
+{name:'JEDI Lab — National University of Singapore', image:'/assets/collaborators/nus-jedi-lab.webp'},
 ];
