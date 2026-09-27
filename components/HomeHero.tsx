@@ -31,7 +31,7 @@ export default function HomeHero(){
         <div className="home-hero-copy">
           <div className="eyebrow light">Human-X Interaction Lab · University of Calgary</div>
           <h1>Augmenting human <br/>capability through <em>XR + AI.</em></h1>
-          <p>We design and study immersive, intelligent, and human-centered technologies that transform how people interact, learn, collaborate, and make decisions.</p>
+          <p>HXIL (pronounced "<em>hexyl</em>") designs and studies immersive, intelligent, and human-centered technologies that transform how people interact, learn, collaborate, and make decisions.</p>
           <div className="home-hero-dots" role="group" aria-label="Choose hero image">
             {slides.map((_, i) => (
               <button
