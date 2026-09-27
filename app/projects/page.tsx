@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import PageHeader from '@/components/PageHeader';
 
 type Study = {
@@ -246,9 +245,6 @@ export default function Page() {
                   ))}
                 </div>
 
-                <Link className="project-publications-link" href="/publications">
-                  View related publications <span>→</span>
-                </Link>
               </div>
             </article>
           ))}
