@@ -13,9 +13,9 @@ export default function Footer() {
           </Link>
 
           <p>
-            University of Calgary · Schulich School of Engineering
-            <br />
             Department of Electrical and Software Engineering
+            <br />
+            Schulich School of Engineering · University of Calgary
           </p>
         </div>
 
