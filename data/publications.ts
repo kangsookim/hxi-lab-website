@@ -9,7 +9,7 @@ export const publications: Pub[] = [
     authors: "Myungjun Lee, Chuyang Zhang, Hyeongil Nam, Gouri Ginde, and Kangsoo Kim",
     venue: "Proceedings of the ACM Symposium on Virtual Reality Software and Technology (VRST), 2026, pp. –.",
     status: "Accepted",
-    image: "/assets/publications/Lee2026agr.webp"
+    image: "/assets/publications/Lee2026ase.webp"
   },
   {
     year: 2026,
