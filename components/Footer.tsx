@@ -15,8 +15,21 @@ export default function Footer() {
           <p>
             Department of Electrical and Software Engineering
             <br />
-            Schulich School of Engineering · University of Calgary
+            Schulich School of Engineering
           </p>
+
+          <a
+            href="https://www.ucalgary.ca/"
+            className="footer-ucalgary"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="University of Calgary"
+          >
+            <img
+              src="/assets/brand/ucalgary-horizontal-white.png"
+              alt="University of Calgary"
+            />
+          </a>
         </div>
 
         <div>
