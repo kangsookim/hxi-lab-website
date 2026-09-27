@@ -94,9 +94,9 @@ const projectPrograms: ProjectProgram[] = [
         image: '/assets/publications/Kaur2025wsc.webp',
       },
       {
-        title: 'Customizable Pedagogical Agents',
-        meta: 'SUI 2026 · Motivation & personalization',
-        image: '/assets/publications/Fouad2026tio.webp',
+        title: 'Personalized Facial Emotion Recognition under HMD Occlusion',
+        meta: 'VRST 2026 · Emotion recognition & personalization',
+        image: '/assets/publications/Lee2026agr.webp',
       },
     ],
   },
