@@ -52,9 +52,9 @@ const projectPrograms: ProjectProgram[] = [
     description:
       'We investigate how avatars and virtual bodies shape identity, self-perception, embodiment, behavior, interpersonal perception, and interaction across immersive environments.',
     tags: ['Avatars', 'Embodiment', 'Identity', 'Perception'],
-    mainImage: '/assets/publications/Kang2025hcc.webp',
-    mainTitle: 'Human-to-Avatar Identity Representation',
-    mainMeta: 'TVCG / IEEE VR 2025 · Identity & personality',
+    mainImage: '/assets/publications/Khan2026ioa.webp',
+    mainTitle: 'Avatar Appearance & Locomotion',
+    mainMeta: 'TVCG 2026 · Representation & movement',
     studies: [
       {
         title: 'Avatar–Locomotion Congruence',
@@ -62,9 +62,9 @@ const projectPrograms: ProjectProgram[] = [
         image: '/assets/publications/Khan2025ill.webp',
       },
       {
-        title: 'Avatar Appearance & Locomotion',
-        meta: 'TVCG 2026 · Representation & movement',
-        image: '/assets/publications/Khan2026ioa.webp',
+        title: 'Human-to-Avatar Identity Representation',
+        meta: 'TVCG / IEEE VR 2025 · Identity & personality',
+        image: '/assets/publications/Kang2025hcc.webp',
       },
       {
         title: 'Avatar Face & Interpersonal Distance',
@@ -79,14 +79,14 @@ const projectPrograms: ProjectProgram[] = [
     description:
       'We develop XR systems that sense and model users—their behavior, emotion, physiology, preferences, and context—and adapt interfaces, agents, and interaction accordingly.',
     tags: ['User Modeling', 'Affective Computing', 'Multimodal Interaction', 'Adaptation'],
-    mainImage: '/assets/publications/Chang2025epe.webp',
-    mainTitle: 'Context-Aware Empathic MR Agents',
-    mainMeta: 'TVCG 2026 · Empathy & adaptive interaction',
+    mainImage: '/assets/publications/Zhang2026upa.webp',
+    mainTitle: 'User Profiling & Modeling in XR',
+    mainMeta: 'TVCG 2026 · Human-aware XR foundations',
     studies: [
       {
-        title: 'User Profiling & Modeling in XR',
-        meta: 'TVCG 2026 · Human-aware XR foundations',
-        image: '/assets/publications/Zhang2026upa.webp',
+        title: 'Context-Aware Empathic MR Agents',
+        meta: 'TVCG 2026 · Empathy & adaptive interaction',
+        image: '/assets/publications/Chang2025epe.webp',
       },
       {
         title: 'When Senses Collide',
@@ -133,9 +133,9 @@ const projectPrograms: ProjectProgram[] = [
     description:
       'We explore how immersive experiences can support restoration, emotional recovery, reflection, meaningful connection, culturally situated care, and engagement with places and memories.',
     tags: ['Wellbeing', 'Stress & Recovery', 'Nature', 'Memory & Reflection'],
-    mainImage: '/assets/publications/Han2023acs.webp',
-    mainTitle: 'VR Activities for Stress Relief',
-    mainMeta: 'ISMAR 2023 · Stress relief & recovery',
+    mainImage: '/assets/publications/Nam2026sra.webp',
+    mainTitle: 'XR Companion Interaction',
+    mainMeta: 'TVCG 2026 · Relational openness & reflection',
     studies: [
       {
         title: 'Immersive Virtual Nature',
@@ -148,9 +148,9 @@ const projectPrograms: ProjectProgram[] = [
         image: '/assets/publications/Fouad2026btd.webp',
       },
       {
-        title: 'XR Companion Interaction',
-        meta: 'TVCG 2026 · Relational openness & reflection',
-        image: '/assets/publications/Nam2026sra.webp',
+        title: 'VR Activities for Stress Relief',
+        meta: 'ISMAR 2023 · Stress relief & recovery',
+        image: '/assets/publications/Han2023acs.webp',
       },
     ],
   },
