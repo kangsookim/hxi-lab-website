@@ -1,9 +1,14 @@
-HXI Lab - Simpson Centre logo size fix
+HXI Lab — News / Gallery / Press final update
 
-Only two files need to be replaced:
-- app/funding-collaborators/page.tsx
-- app/globals.css
+Copy these files into the same paths in the current project.
 
-This keeps the official vertical Simpson Centre logo unchanged, but gives only that logo a larger display size in the Funding Agencies wall.
+Changes:
+- Hero title: "News & Media"
+- Subnav: News / Gallery / Press
+- Press page: /news/press
+- Added The Western Producer item dated DEC 1, 2022 with year: 2022
+- Replaced available Press thumbnails with the supplied WebP images in public/assets/press/
+- External press links open in a new tab
 
-No data/site.ts or image files need to be replaced.
+Note:
+- The Simpson Centre and CRA Conquer entries retain their existing local website thumbnails because no replacement image was supplied for those two items.

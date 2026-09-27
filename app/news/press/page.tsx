@@ -1,10 +1,10 @@
 import PageHeader from '@/components/PageHeader';
-import NewsExplorer from '@/components/NewsExplorer';
+import PressExplorer from '@/components/PressExplorer';
 import NewsSubnav from '@/components/NewsSubnav';
 
 export default function Page(){
   return <>
     <PageHeader eyebrow="News" title="News & Media" copy="Research updates, lab life, visual highlights, and media coverage from HXIL."/>
-    <section className="section"><div className="wrap"><NewsSubnav active="news"/><NewsExplorer/></div></section>
+    <section className="section"><div className="wrap"><NewsSubnav active="press"/><PressExplorer/></div></section>
   </>
 }
