@@ -15,21 +15,8 @@ export default function Footer() {
           <p>
             Department of Electrical and Software Engineering
             <br />
-            Schulich School of Engineering
+            Schulich School of Engineering · University of Calgary
           </p>
-
-          <a
-            href="https://www.ucalgary.ca/"
-            className="footer-ucalgary"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="University of Calgary"
-          >
-            <img
-              src="/assets/brand/ucalgary-horizontal-white.png"
-              alt="University of Calgary"
-            />
-          </a>
         </div>
 
         <div>
@@ -46,7 +33,7 @@ export default function Footer() {
           <Link href="/join">Join Us</Link>
         </div>
 
-        <div>
+        <div className="footer-contact">
           <b>Contact</b>
           <p>
             ICT 247 · 2500 University Drive NW
@@ -55,6 +42,18 @@ export default function Footer() {
           </p>
           <a href="mailto:kangsoo.kim@ucalgary.ca">
             kangsoo.kim@ucalgary.ca
+          </a>
+          <a
+            className="footer-ucalgary"
+            href="https://www.ucalgary.ca/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="University of Calgary"
+          >
+            <img
+              src="/assets/brand/ucalgary-horizontal-white.png"
+              alt="University of Calgary"
+            />
           </a>
         </div>
       </div>
