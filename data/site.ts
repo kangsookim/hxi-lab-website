@@ -1,39 +1,45 @@
-export type Member = {name:string; role:string; period?:string; group:string; image:string; affiliation?:string; email?:string; history?:string};
+export type MemberLink = {label:string; url:string};
+export type Member = {name:string; role:string; period?:string; group:string; image:string; affiliation?:string; email?:string; history?:string; links?:MemberLink[]};
+
 export const currentMembers: Member[] = [
-  {name:'Kangsoo Kim', role:'Director · Associate Professor, ESE', group:'Director', image:'/assets/team/KangsooKIM.png', email:'kangsoo.kim@ucalgary.ca'},
-  {name:'Muskan Sarvesh', role:'Ph.D. Candidate · ESE', period:'2022.07–Present', group:'Graduate Students', image:'/assets/team/MuskanSARVESH.png'},
-  {name:'Ahmad Fouad', role:'Ph.D. Candidate · ESE', period:'2024.09–Present', group:'Graduate Students', image:'/assets/team/AhmadFOUAD.png'},
-  {name:'Taeyeon Kim', role:'Ph.D. Student · ESE', period:'2025.09–Present', history:'Previously: Visiting M.Sc. Student · Pusan National University · 2024.09–2024.12', group:'Graduate Students', image:'/assets/team/TaeyeonKIM.png'},
-  {name:'Chuyang Zhang', role:'Ph.D. Student · ESE', period:'2025.09–Present', group:'Graduate Students', image:'/assets/team/ChuyangZHANG.png'},
-  {name:'Jessica Kim', role:'M.Sc. Student · BME', period:'2025.01–Present', history:'Previously: Research Intern · B.Sc. in Psychology, UBC · 2024.09–2024.12', group:'Graduate Students', image:'/assets/team/JessicaKIM.png'},
-  {name:'MyungJun (MJ) Lee', role:'M.Sc. Student · ESE', period:'2025.09–Present', group:'Graduate Students', image:'/assets/team/MyoungjunLEE.png'},
-  {name:'Tafreed Ahmad', role:'M.Sc. Student · ESE', period:'2025.09–Present', group:'Graduate Students', image:'/assets/team/TafreedAHMAD.png'},
-  {name:'Mehak Kaur', role:'B.Sc. Student · ESE', period:'2026.09–Present', history:'Previously: B.Sc. Student · ESE · 2024.05–2025.12', group:'Undergraduate Researchers', image:'/assets/team/MehakKAUR.png'},
-  {name:'Svara Patel', role:'B.Sc. Student · ESE', period:'2026.09–Present', history:'Previously: B.Sc. Student · ESE · 2024.11–2025.04', group:'Undergraduate Researchers', image:'/assets/team/SvaraPATEL.png'},
-  {name:"Roberto D'Amore", role:'Visiting Ph.D. Student', period:'2026.09–Present', group:'Visiting Researchers', affiliation:'Polytechnic University of Bari', image:'/assets/team/RobertoDAMORE.png'}
+  {name:'Kangsoo Kim', role:'Director · Associate Professor, ESE', group:'Director', image:'/assets/team/KangsooKIM.png', email:'kangsoo.kim[at]ucalgary[dot]ca', links:[
+    {label:'LinkedIn',url:'https://www.linkedin.com/in/kangsoo-kim'},
+    {label:'Google Scholar',url:'https://scholar.google.com/citations?user=oNaa4qkAAAAJ'}
+  ]},
+  {name:'Muskan Sarvesh', role:'Ph.D. Candidate · ESE', period:'2022.07–Present', group:'Graduate Students', image:'/assets/team/MuskanSARVESH.png', email:'muskan.sarvesh1[at]ucalgary[dot]ca', links:[{label:'LinkedIn',url:'https://ca.linkedin.com/in/muskansarvesh'}]},
+  {name:'Ahmad Fouad', role:'Ph.D. Candidate · ESE', period:'2024.09–Present', group:'Graduate Students', image:'/assets/team/AhmadFOUAD.png', email:'ahmad.fouad[at]ucalgary[dot]ca', links:[{label:'LinkedIn',url:'https://ca.linkedin.com/in/ahmad-fouad-58410945'}]},
+  {name:'Taeyeon Kim', role:'Ph.D. Student · ESE', period:'2025.09–Present', history:'Previously: Visiting M.Sc. Student · Pusan National University · 2024.09–2024.12', group:'Graduate Students', image:'/assets/team/TaeyeonKIM.png', email:'taeyeon.kim1[at]ucalgary[dot]ca', links:[{label:'LinkedIn',url:'https://ca.linkedin.com/in/taeyeon-kim-7a49b5277'}]},
+  {name:'Chuyang Zhang', role:'Ph.D. Student · ESE', period:'2025.09–Present', group:'Graduate Students', image:'/assets/team/ChuyangZHANG.png', email:'chuyang.zhang1[at]ucalgary[dot]ca'},
+  {name:'Jessica Kim', role:'M.Sc. Student · BME', period:'2025.01–Present', history:'Previously: Research Intern · B.Sc. in Psychology, UBC · 2024.09–2024.12', group:'Graduate Students', image:'/assets/team/JessicaKIM.png', email:'jessica.kim2[at]ucalgary[dot]ca', links:[{label:'LinkedIn',url:'https://ca.linkedin.com/in/jessica-jeewoo-kim'}]},
+  {name:'MyungJun (MJ) Lee', role:'M.Sc. Student · ESE', period:'2025.09–Present', group:'Graduate Students', image:'/assets/team/MyoungjunLEE.png', email:'mj.lee1[at]ucalgary[dot]ca', links:[{label:'LinkedIn',url:'https://ca.linkedin.com/in/mlmj'}]},
+  {name:'Tafreed Ahmad', role:'M.Sc. Student · ESE', period:'2025.09–Present', group:'Graduate Students', image:'/assets/team/TafreedAHMAD.png', email:'tafreed.ahmad2[at]ucalgary[dot]ca', links:[{label:'LinkedIn',url:'https://ca.linkedin.com/in/tafreed-ahmad01'}]},
+  {name:'Mehak Kaur', role:'B.Sc. Student · ESE', period:'2026.09–Present', history:'Previously: B.Sc. Student · ESE · 2024.05–2025.12', group:'Undergraduate Researchers', image:'/assets/team/MehakKAUR.png', email:'mehakdeep.kaur[at]ucalgary[dot]ca', links:[{label:'LinkedIn',url:'https://ca.linkedin.com/in/mehakdeep-kaur-507825296'}]},
+  {name:'Svara Patel', role:'B.Sc. Student · ESE', period:'2026.09–Present', history:'Previously: B.Sc. Student · ESE · 2024.11–2025.04', group:'Undergraduate Researchers', image:'/assets/team/SvaraPATEL.png', email:'svara.patel[at]ucalgary[dot]ca', links:[{label:'LinkedIn',url:'https://ca.linkedin.com/in/svara-patel'}]},
+  {name:"Roberto D'Amore", role:'Visiting Ph.D. Student', period:'2026.09–Present', group:'Visiting Researchers', affiliation:'Polytechnic University of Bari', image:'/assets/team/RobertoDAMORE.png', email:'roberto.damore[at]ucalgary[dot]ca', links:[{label:'LinkedIn',url:'https://it.linkedin.com/in/roberto-d-amore-8942382a0'}]}
 ];
+
 export const alumni: Member[] = [
-  {name:'Hyeongil Nam', role:'Postdoctoral Researcher · ESE', period:'2024.06–2026.08', history:'Previously: Visiting Ph.D. Student · Hanyang University · 2022.09; 2023.09–2024.02', group:'Alumni', image:'/assets/team/HyeongilNAM.png'},
-  {name:'Zaid Ahmed', role:'B.Sc. Student · ESE', period:'2025.01–2026.06', group:'Alumni', image:'/assets/team/ZaidAHMED.png'},
-  {name:'Jazeb Zafar', role:'B.Sc. Student · ESE', period:'2025.02–2026.06', group:'Alumni', image:'/assets/team/JazebJAFAR.png'},
-  {name:'Aser Ghobara', role:'B.Sc. Student · ESE', period:'2025.09–2026.06', group:'Alumni', image:'/assets/team/AserGHOBARA.png'},
-  {name:'Magdy Hafez', role:'B.Sc. Student · ESE', period:'2026.02–2026.06', group:'Alumni', image:'/assets/team/MagdyHAFEZ.png'},
-  {name:'Arjun Chatha', role:'B.Sc. Student · ESE', period:'2025.02–2026.04', group:'Alumni', image:'/assets/team/ArjunCHATHA.png'},
-  {name:'Mehdi Marzban', role:'M.Sc. Student · ESE', period:'2022.05–2026.01', group:'Alumni', image:'/assets/team/MehdiMARZBAN.png'},
-  {name:'Charbel Maroun', role:'B.Sc. Student · ESE', period:'2025.05–2025.08', group:'Alumni', image:'/assets/team/CharbelMAROUN.png'},
-  {name:'Junyeong Kum', role:'Visiting Ph.D. Student', period:'2025.05–2025.08', group:'Alumni', affiliation:'Pusan National University', image:'/assets/team/JunyeongKUM.png'},
-  {name:'Ryan (Minseok) Kang', role:'M.Sc. Student · ESE', period:'2023.08–2025.07', group:'Alumni', image:'/assets/team/RyanKANG.png'},
-  {name:'Omar Khan', role:'B.Sc. Student / Research Associate', period:'2023.01–2025.09', group:'Alumni', image:'/assets/team/OmarKHAN.png'},
-  {name:'Hyun-Ho Choi', role:'Visiting Professor', period:'2024.03–2025.02', group:'Alumni', affiliation:'Hankyong National University', image:'/assets/team/HyunghoCHOI.png'},
-  {name:'Michael Francis', role:'M.Sc. Student · ESE', period:'2022.09–2025.01', group:'Alumni', image:'/assets/team/MichaelFRANCIS.png'},
-  {name:'Anh Nguyen', role:'B.Sc. Student · CS', period:'2022.05–2024.12', group:'Alumni', image:'/assets/team/AnhNGUYEN.png'},
-  {name:'Changgu Kang', role:'Visiting Professor', period:'2023.03–2024.02', group:'Alumni', affiliation:'Gyeongsang National University', image:'/assets/team/ChangguKANG.png'},
-  {name:'Kisub Lee', role:'Visiting M.Sc. Student', period:'2023.09–2024.02', group:'Alumni', affiliation:'Hanyang University', image:'/assets/team/KisubLEE.png'},
-  {name:'Chae Heon Lim', role:'Visiting M.Sc. Student', period:'2023.08–2024.01', group:'Alumni', affiliation:'Gyeongsang National University', image:'/assets/team/ChaeheonLIM.png'},
-  {name:'Seoyoung Kang', role:'Visiting Ph.D. Student', period:'2023.08–2024.01 · 2025.09–2025.11', group:'Alumni', affiliation:'KAIST', image:'/assets/team/SeoyoungKANG.png'},
-  {name:'Yifan Li', role:'Ph.D. Student · ESE', period:'2022.09–2023.12', group:'Alumni', image:'/assets/team/YifanLI.png'},
-  {name:'Kanchan Shrestha', role:'Summer B.Sc. Student', period:'2022.05–2022.08', group:'Alumni', affiliation:"Queen's University · NSERC USRA", image:'/assets/team/KanchanSHRESTHA.png'},
-  {name:'Jason Nguyen', role:'Summer B.Sc. Student · ESE', period:'2022.05–2022.08', group:'Alumni', image:'/assets/team/JasonNGUYEN.png'}
+  {name:'Hyeongil Nam', role:'Postdoctoral Researcher · ESE', period:'2024.06–2026.08', history:'Previously: Visiting Ph.D. Student · Hanyang University · 2022.09; 2023.09–2024.02', group:'Alumni', image:'/assets/team/HyeongilNAM.png', email:'hyeongil.nam[at]ucalgary[dot]ca', links:[{label:'LinkedIn',url:'https://ca.linkedin.com/in/hyeongil-nam-145060196'}]},
+  {name:'Zaid Ahmed', role:'B.Sc. Student · ESE', period:'2025.01–2026.06', group:'Alumni', image:'/assets/team/ZaidAHMED.png', email:'zaid.ahmed[at]ucalgary[dot]ca'},
+  {name:'Jazeb Zafar', role:'B.Sc. Student · ESE', period:'2025.02–2026.06', group:'Alumni', image:'/assets/team/JazebJAFAR.png', email:'jazeb.zafar[at]ucalgary[dot]ca'},
+  {name:'Aser Ghobara', role:'B.Sc. Student · ESE', period:'2025.09–2026.06', group:'Alumni', image:'/assets/team/AserGHOBARA.png', email:'aser.ghobara[at]ucalgary[dot]ca'},
+  {name:'Magdy Hafez', role:'B.Sc. Student · ESE', period:'2026.02–2026.06', group:'Alumni', image:'/assets/team/MagdyHAFEZ.png', email:'magdy.hafez9123[at]gmail[dot]com'},
+  {name:'Arjun Chatha', role:'B.Sc. Student · ESE', period:'2025.02–2026.04', group:'Alumni', image:'/assets/team/ArjunCHATHA.png', email:'arjun.chatha1[at]ucalgary[dot]ca'},
+  {name:'Mehdi Marzban', role:'M.Sc. Student · ESE', period:'2022.05–2024.08 · 2025.05–2026.01', group:'Alumni', image:'/assets/team/MehdiMARZBAN.png', email:'mehdi.marzban[at]ucalgary[dot]ca'},
+  {name:'Charbel Maroun', role:'B.Sc. Student · ESE', period:'2025.05–2025.08', group:'Alumni', image:'/assets/team/CharbelMAROUN.png', email:'charbel.maroun[at]ucalgary[dot]ca'},
+  {name:'Junyeong Kum', role:'Visiting Ph.D. Student', period:'2025.05–2025.08', group:'Alumni', affiliation:'Pusan National University', image:'/assets/team/JunyeongKUM.png', email:'kum.junyeong[at]pusan[dot]ac[dot]kr · junyeong.kum[at]ucalgary[dot]ca'},
+  {name:'Ryan (Minseok) Kang', role:'M.Sc. Student · ESE', period:'2023.08–2025.07', group:'Alumni', image:'/assets/team/RyanKANG.png', email:'ryanminseok.kang[at]ucalgary[dot]ca'},
+  {name:'Omar Khan', role:'B.Sc. Student / Research Associate', period:'2023.01–2025.09', group:'Alumni', image:'/assets/team/OmarKHAN.png', email:'omar.khan2[at]ucalgary[dot]ca', links:[{label:'Website',url:'https://okhan.me'}]},
+  {name:'Hyun-Ho Choi', role:'Visiting Professor', period:'2024.03–2025.02', group:'Alumni', affiliation:'Hankyong National University', image:'/assets/team/HyunghoCHOI.png', email:'hhchoi[at]hknu[dot]ac[dot]kr · hyunho.choi[at]ucalgary[dot]ca'},
+  {name:'Michael Francis', role:'M.Sc. Student · ESE', period:'2022.09–2025.01', group:'Alumni', image:'/assets/team/MichaelFRANCIS.png', email:'mjfranci[at]ucalgary[dot]ca'},
+  {name:'Anh Nguyen', role:'B.Sc. Student · CS', period:'2022.05–2024.12', group:'Alumni', image:'/assets/team/AnhNGUYEN.png', email:'anh.nguyen5[at]ucalgary[dot]ca'},
+  {name:'Changgu Kang', role:'Visiting Professor', period:'2023.03–2024.02', group:'Alumni', affiliation:'Gyeongsang National University', image:'/assets/team/ChangguKANG.png', email:'cgk[at]gnu[dot]ac[dot]kr · changgu.kang1[at]ucalgary[dot]ca'},
+  {name:'Kisub Lee', role:'Visiting M.Sc. Student', period:'2023.09–2024.02', group:'Alumni', affiliation:'Hanyang University', image:'/assets/team/KisubLEE.png', email:'leegi5114[at]hanyang[dot]ac[dot]kr · kisub.lee[at]ucalgary[dot]ca'},
+  {name:'Chae Heon Lim', role:'Visiting M.Sc. Student', period:'2023.08–2024.01', group:'Alumni', affiliation:'Gyeongsang National University', image:'/assets/team/ChaeheonLIM.png', email:'ch2142[at]gnu[dot]ac[dot]kr · chaeheon.lim[at]ucalgary[dot]ca'},
+  {name:'Seoyoung Kang', role:'Visiting Ph.D. Student', period:'2023.08–2024.01 · 2025.09–2025.11', group:'Alumni', affiliation:'KAIST', image:'/assets/team/SeoyoungKANG.png', email:'sy1009kang[at]kaist[dot]ac[dot]kr · seoyoung.kang1[at]ucalgary[dot]ca'},
+  {name:'Yifan Li', role:'Ph.D. Student · ESE', period:'2022.09–2023.12', group:'Alumni', image:'/assets/team/YifanLI.png', email:'yifan.li1[at]ucalgary[dot]ca', links:[{label:'LinkedIn',url:'https://jp.linkedin.com/in/yifan-li-ucl'}]},
+  {name:'Kanchan Shrestha', role:'Summer B.Sc. Student', period:'2022.05–2022.08', group:'Alumni', affiliation:"Queen's University · NSERC USRA", image:'/assets/team/KanchanSHRESTHA.png', email:'19ks62[at]queensu[dot]ca'},
+  {name:'Jason Nguyen', role:'Summer B.Sc. Student · ESE', period:'2022.05–2022.08', group:'Alumni', image:'/assets/team/JasonNGUYEN.png', email:'jason.nguyen2[at]ucalgary[dot]ca'}
 ];
 
 export const researchThemes = [
