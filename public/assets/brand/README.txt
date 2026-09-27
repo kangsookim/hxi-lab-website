@@ -1,10 +1,1 @@
-HXIL master asset set
-
-Geometry rules:
-- H, X, I, L share exactly the same cap height.
-- X never overshoots vertically.
-- No subtitle.
-- No LAB word; primary wordmark is HXIL only.
-- Light = navy letters on transparent background.
-- Dark = white letters on transparent background.
-- X mark/icon geometry is shared across all assets.
+HXIL brand assets. Logo concept: H + original gradient X + I + separate lower bar implying L. The lower bar is shortened by one-third from the previous version.
