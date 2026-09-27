@@ -11,11 +11,11 @@ export const currentMembers: Member[] = [
     {label:'Google Scholar',url:'https://scholar.google.com/citations?user=ZUv02tgAAAAJ'}
   ]},
   {name:'Ahmad Fouad', role:'Ph.D. Candidate · ESE', period:'2024.09–Present', group:'Graduate Students', image:'/assets/team/AhmadFOUAD.png', email:'ahmad.fouad[at]ucalgary[dot]ca', links:[
-    {label:'LinkedIn',url:'https://www.linkedin.com//in/ahmad-fouad-58410945'},
+    {label:'LinkedIn',url:'https://www.linkedin.com/in/ahmad-fouad-58410945'},
     {label:'Google Scholar',url:'https://scholar.google.com/citations?user=2WKD-6wAAAAJ'}
   ]},
   {name:'Taeyeon Kim', role:'Ph.D. Student · ESE', period:'2025.09–Present', history:'Previously: Visiting M.Sc. Student · Pusan National University · 2024.09–2024.12', group:'Graduate Students', image:'/assets/team/TaeyeonKIM.png', email:'taeyeon.kim1[at]ucalgary[dot]ca', links:[
-    {label:'LinkedIn',url:'https://www.linkedin.com//in/taeyeon-kim-7a49b5277'},
+    {label:'LinkedIn',url:'https://www.linkedin.com/in/taeyeon-kim-7a49b5277'},
     {label:'Google Scholar',url:'https://scholar.google.com/citations?user=TfcLuIMAAAAJ'}
   ]},
   {name:'Chuyang Zhang', role:'Ph.D. Student · ESE', period:'2025.09–Present', group:'Graduate Students', image:'/assets/team/ChuyangZHANG.png', email:'chuyang.zhang1[at]ucalgary[dot]ca', links:[
