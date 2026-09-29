@@ -352,6 +352,24 @@
 .funding-list-editorial .fund-description{font-size:14px;line-height:1.62;color:#68778a;margin:0;max-width:860px}
 @media(max-width:700px){.funding-list-editorial article{grid-template-columns:1fr;gap:8px;padding:24px 0}.funding-list-editorial .fund-year{padding-top:0}.funding-list-editorial h3{font-size:21px}}
 
+.collaborator-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.collaborator-link img {
+  transition: transform .2s ease, opacity .2s ease;
+}
+
+.collaborator-link:hover img {
+  transform: scale(1.04);
+  opacity: .85;
+}
+
 /* Funding sub-navigation and past support archive */
 .funding-subnav{display:inline-flex;gap:6px;padding:5px;margin-bottom:38px;border:1px solid var(--line);border-radius:999px;background:#f8fafc}
 .funding-subnav a{padding:10px 17px;border-radius:999px;font-size:13px;font-weight:750;color:#5c6978}

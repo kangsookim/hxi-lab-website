@@ -73,7 +73,15 @@ export default function Page() {
         <div className="logo-wall collaborator-wall">
           {collaboratorLogos.map(l => (
             <div key={l.name} className="logo-card">
-              <img src={l.image} alt={`${l.name} logo`} />
+              <a
+                href={l.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Visit ${l.name}`}
+                className="collaborator-link"
+              >
+                <img src={l.image} alt={`${l.name} logo`} />
+              </a>
             </div>
           ))}
         </div>
