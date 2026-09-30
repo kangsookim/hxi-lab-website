@@ -6,7 +6,7 @@ export const currentMembers: Member[] = [
     {label:'LinkedIn',url:'https://www.linkedin.com/in/kangsoo-kim'},
     {label:'Google Scholar',url:'https://scholar.google.com/citations?user=oNaa4qkAAAAJ'}
   ]},
-  {name:'Muskan Sarvesh', role:'Ph.D. Candidate · ESE', period:'2022.07–Present', group:'Graduate Students', image:'/assets/team/MuskanSARVESH.png', email:'muskan.sarvesh1[at]ucalgary[dot]ca', links:[
+  {name:'Muskan Sarvesh', role:'Ph.D. Candidate · ESE', period:'2024.05–Present', history:'Previously: M.Sc. Student · ESE · 2022.07–2024.04', group:'Graduate Students', image:'/assets/team/MuskanSARVESH.png', email:'muskan.sarvesh1[at]ucalgary[dot]ca', links:[
     {label:'LinkedIn',url:'https://www.linkedin.com/in/muskansarvesh/'},
     {label:'Google Scholar',url:'https://scholar.google.com/citations?user=ZUv02tgAAAAJ'}
   ]},
@@ -22,7 +22,7 @@ export const currentMembers: Member[] = [
     {label:'LinkedIn',url:'https://www.linkedin.com/in/iwnlcyan/'},
     {label:'Google Scholar',url:'https://scholar.google.com/citations?user=7Gc7x-IAAAAJ'}
   ]},
-  {name:'Jessica Kim', role:'M.Sc. Student · BME', period:'2025.01–Present', history:'Previously: Research Intern · B.Sc. in Psychology, UBC · 2024.09–2024.12', group:'Graduate Students', image:'/assets/team/JessicaKIM.png', email:'jessica.kim2[at]ucalgary[dot]ca', links:[
+  {name:'Jessica Kim', role:'M.Sc. Student · BME', period:'2025.01–Present', history:'Previously: Research Intern · 2024.09–2024.12', group:'Graduate Students', image:'/assets/team/JessicaKIM.png', email:'jessica.kim2[at]ucalgary[dot]ca', links:[
     {label:'LinkedIn',url:'https://www.linkedin.com/in/jessica-jeewoo-kim'}
   ]},
   {name:'MyungJun (MJ) Lee', role:'M.Sc. Student · ESE', period:'2025.09–Present', group:'Graduate Students', image:'/assets/team/MyoungjunLEE.png', email:'mj.lee1[at]ucalgary[dot]ca', links:[
