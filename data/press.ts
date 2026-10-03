@@ -9,6 +9,14 @@ export type PressItem = {
 
 export const pressItems: PressItem[] = [
   {
+    date: 'OCT 2, 2026',
+    year: 2026,
+    source: 'Global News Calgary, Calgary Herald, and Alberta Children\'s Hospital News',
+    title: 'Researchers at the Alberta Children’s Hospital explore augmented reality as a tool to transform care for kids',
+    url: 'https://www.childrenshospital.ab.ca/your-impact/latest-news/bringing-the-future-into-focus/',
+    image: '/assets/press/20261002_calgary herold_ach.webp',
+  },
+  {
     date: 'APR 26, 2026',
     year: 2026,
     source: 'CBC News Alberta',
@@ -30,7 +38,7 @@ export const pressItems: PressItem[] = [
     source: 'The Electronic Times',
     title: "KAIST Wins Four Best Paper Awards at the World’s Most Prestigious Conferences with XR Technology",
     url: 'https://www.etnews.com/20251107000102',
-    image: '/assets/press/20261107_electronic-times.webp',
+    image: '/assets/press/20251107_electronic-times.webp',
   },
   {
     date: 'JUN 6, 2025',
