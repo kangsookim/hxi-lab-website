@@ -9,12 +9,20 @@ export type PressItem = {
 
 export const pressItems: PressItem[] = [
   {
+    date: 'OCT 3, 2026',
+    year: 2026,
+    source: 'Calgary Herald and Alberta Children\'s Hospital News',
+    title: 'Researchers at the Alberta Children\'s Hospital explore augmented reality as a tool to transform care for kids',
+    url: 'https://calgaryherald.com/sponsored/health-sponsored/alberta-childrens-hospital-foundation-community-support',
+    image: '/assets/press/20261003_calgary herold_ach.webp',
+  },
+  {
     date: 'OCT 2, 2026',
     year: 2026,
-    source: 'Global News Calgary, Calgary Herald, and Alberta Children\'s Hospital News',
-    title: 'Researchers at the Alberta Children’s Hospital explore augmented reality as a tool to transform care for kids',
+    source: 'Global News Calgary and Alberta Children\'s Hospital News',
+    title: 'Global News Calgary: Augmented Reality at the Alberta Children’s Hospital',
     url: 'https://www.childrenshospital.ab.ca/your-impact/latest-news/bringing-the-future-into-focus/',
-    image: '/assets/press/20261002_calgary herold_ach.webp',
+    image: '/assets/press/20261002_global_ach.webp',
   },
   {
     date: 'APR 26, 2026',
