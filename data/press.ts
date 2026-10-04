@@ -14,7 +14,7 @@ export const pressItems: PressItem[] = [
     source: 'Calgary Herald and Alberta Children\'s Hospital News',
     title: 'Researchers at the Alberta Children\'s Hospital explore augmented reality as a tool to transform care for kids',
     url: 'https://calgaryherald.com/sponsored/health-sponsored/alberta-childrens-hospital-foundation-community-support',
-    image: '/assets/press/20261003_calgary herold_ach.webp',
+    image: '/assets/press/20261003_calgary herald_ach.webp',
   },
   {
     date: 'OCT 2, 2026',
