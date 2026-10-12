@@ -8,6 +8,8 @@ export type PressItem = {
 };
 
 export const pressItems: PressItem[] = [
+  
+Highlighting HXI Lab's research on augmented reality to support healthcare professionals in pediatric emergency care.
   {
     date: 'OCT 3, 2026',
     year: 2026,
@@ -15,6 +17,14 @@ export const pressItems: PressItem[] = [
     title: 'Researchers at the Alberta Children\'s Hospital explore augmented reality as a tool to transform care for kids',
     url: 'https://calgaryherald.com/sponsored/health-sponsored/alberta-childrens-hospital-foundation-community-support',
     image: '/assets/press/20261003_calgary herald_ach.webp',
+  },
+  {
+    date: 'OCT 2, 2026',
+    year: 2026,
+    source: 'Alberta Children\'s Hospital Foundation · Video Feature',
+    title: 'Everything Possible: Augmented Reality',
+    url: 'https://www.youtube.com/watch?v=WCqf7g4tnFM',
+    image: '/assets/press/20261002_ACHF_augmented_reality.webp',
   },
   {
     date: 'OCT 2, 2026',
