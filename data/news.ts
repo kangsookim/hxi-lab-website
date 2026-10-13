@@ -1,6 +1,10 @@
 export type NewsCategory = 'Research' | 'Awards' | 'People' | 'Talks & Visits' | 'Events';
 export type NewsItem = { date:string; year:number; category:NewsCategory; title:string };
 export const newsItems: NewsItem[] = [
+  {date:'2026-10-11', year:2026, category:'Research', title:'Ahmad and Chuyang presented two poster papers at ACM SUI 2026.'},
+  {date:'2026-10-09', year:2026, category:'Research', title:'Ahmad, Chuyang, and Hyeongil presented three papers—one ISMAR conference paper and two IEEE TVCG journal articles—at IEEE ISMAR 2026.'},
+  {date:'2026-10-06', year:2026, category:'Event', title:'Kangsoo co-organized the 4th XRMemory Workshop at IEEE ISMAR 2026, where Chuyang presented our concept of Physiological Memories in XR.'},
+  {date:'2026-10-06', year:2026, category:'Event', title:'Hyeongil and Kangsoo co-organized the 2nd XRAI-SCA Workshop at IEEE ISMAR 2026, where our team presented three projects on Inuit maternal care, industrial digital twins, and healthcare simulation.'},
   {date:'2026-09-15', year:2026, category:'Research', title:'Two conference papers have been accepted at ACM VRST 2026.'},
   {date:'2026-09-05', year:2026, category:'People', title:'Roberto joined our group as a visiting graduate researcher from the Polytechnic University of Bari.'},
   {date:'2026-08-14', year:2026, category:'Research', title:'Hyeongil has started an exciting new chapter as a professor at Hanyang University ERICA in South Korea.'},
