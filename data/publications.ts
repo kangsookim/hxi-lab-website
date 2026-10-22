@@ -5,7 +5,7 @@ export const publications: Pub[] = [
     year: 2026,
     category: "Conference",
     subtype: "Conference Paper",
-    title: "Authentication-Driven Personalization for Facial Emotion Recognition Under Head-Mounted Display Occlusion",
+    title: "Authentication-Style Enrollment for Personalized Facial Emotion Recognition Under Head-Mounted Display Occlusion",
     authors: "Myungjun Lee, Chuyang Zhang, Hyeongil Nam, Gouri Ginde, and Kangsoo Kim",
     venue: "Proceedings of the ACM Symposium on Virtual Reality Software and Technology (VRST), 2026, pp. –.",
     status: "Accepted",
@@ -15,7 +15,7 @@ export const publications: Pub[] = [
     year: 2026,
     category: "Conference",
     subtype: "Conference Paper",
-    title: "Exploring Cultural Competency in Palliative Nursing Education Using AI-Powered Virtual Agents in VR: A Design-Oriented Pilot Study",
+    title: "Exploring Cultural Competency in Palliative Nursing Education Using AI-Powered Virtual Agents in VR: An Exploratory Study",
     authors: "Taeyeon Kim, Arjun Chatha, Caitlin Manz, Hyeongil Nam, Kara Sealock, and Kangsoo Kim",
     venue: "Proceedings of the ACM Symposium on Virtual Reality Software and Technology (VRST), 2026, pp. –.",
     status: "Accepted",
@@ -27,8 +27,8 @@ export const publications: Pub[] = [
     subtype: "Poster",
     title: "Investigating the Impact of Personalized Gaze Behaviors on Social Interaction with Virtual Humans in VR: A Study Design",
     authors: "Chuyang Zhang, Hyeongil Nam, and Kangsoo Kim",
-    venue: "Proceedings of the ACM Symposium on Spatial User Interaction (SUI), 2026, pp. –.",
-    status: "Accepted",
+    venue: "Proceedings of the ACM Symposium on Spatial User Interaction (SUI), 2026, pp. 52:1–2.",
+    doi: "https://doi.org/10.1145/3822518.3839320",
     image: "/assets/publications/Zhang2026iti.webp"
   },
   {
@@ -37,8 +37,8 @@ export const publications: Pub[] = [
     subtype: "Poster",
     title: "The Impact of Customizing Pedagogical Agents on Learners’ Intrinsic Motivation and Satisfaction in Augmented Reality",
     authors: "Ahmad A. Fouad, Hyeongil Nam, and Kangsoo Kim",
-    venue: "Proceedings of the ACM Symposium on Spatial User Interaction (SUI), 2026, pp. –.",
-    status: "Accepted",
+    venue: "Proceedings of the ACM Symposium on Spatial User Interaction (SUI), 2026, pp. 64:1–2.",
+    doi: "https://doi.org/10.1145/3822518.3839314",
     image: "/assets/publications/Fouad2026tio.webp"
   },
   {
@@ -65,10 +65,10 @@ export const publications: Pub[] = [
     year: 2026,
     category: "Conference",
     subtype: "Conference Paper",
-    title: "The Use of Pedagogical Agents in Virtual and Augmented Reality: A Scoping Review of Motivation through Self-Determination Theory",
+    title: "Self-Determination Theory in AR/VR Pedagogical Agents: A Scoping Review of Motivational Design",
     authors: "Ahmad A. Fouad, Hyeongil Nam, and Kangsoo Kim",
-    venue: "Proceedings of the IEEE International Symposium on Mixed and Augmented Reality (ISMAR), 2026, pp. –.",
-    status: "Accepted",
+    venue: "Proceedings of the IEEE International Symposium on Mixed and Augmented Reality (ISMAR), 2026, pp. 132–143.",
+    doi: "https://doi.org/10.1109/ISMAR70079.2026.00028",
     image: "/assets/publications/Fouad2026tuo.webp"
   },
   {
@@ -77,8 +77,8 @@ export const publications: Pub[] = [
     subtype: "Workshop Paper",
     title: "AI Guide Representation as a Design Variable for Resuscitation Team-Leader Training in Virtual Reality: A Work-in-Progress",
     authors: "Myungjun Lee, Hyeongil Nam, Jennifer Davidson, Yiqun Lin, Adam Cheng, and Kangsoo Kim",
-    venue: "Proceedings of IEEE ISMAR Adjunct: 2nd XRAI-SCA Workshop, 2026, pp. –.",
-    status: "Accepted",
+    venue: "Proceedings of IEEE ISMAR Adjunct: 2nd XRAI-SCA Workshop, 2026, pp. 681–682.",
+    doi: "https://doi.org/10.1109/ISMAR-Adjunct73196.2026.00133",
     image: "/assets/publications/Lee2026agr.webp"
   },
   {
@@ -87,8 +87,8 @@ export const publications: Pub[] = [
     subtype: "Workshop Paper",
     title: "From 2D Analytics to an XR and AI-Enabled Digital Twin of Hydrogen Pipeline Systems: Progress in the SHAPE Project",
     authors: "Muskan Sarvesh, Nanjia Wang, Saadman Rahman, Brody Wells, Taeyeon Kim, Sina Rezvani, Aaditya Ramesh, Bob Brennan, Ron Hugo, Frank Maurer, and Kangsoo Kim",
-    venue: "Proceedings of IEEE ISMAR Adjunct: 2nd XRAI-SCA Workshop, 2026, pp. –.",
-    status: "Accepted",
+    venue: "Proceedings of IEEE ISMAR Adjunct: 2nd XRAI-SCA Workshop, 2026, pp. 662–665.",
+    doi: "https://doi.org/10.1109/ISMAR-Adjunct73196.2026.00129",
     image: "/assets/publications/Sarvesh2026f2a.webp"
   },
   {
@@ -97,8 +97,8 @@ export const publications: Pub[] = [
     subtype: "Workshop Paper",
     title: "Bridging the Distance: A Culturally Situated VR Experience for Inuit Women Relocating for Maternal Care",
     authors: "Ahmad A. Fouad, Tafreed Ahmad, Hyeongil Nam, Mary Ann Forbes, Judy Clark, Gail Baikie, Patricia Johnston, and Kangsoo Kim",
-    venue: "Proceedings of IEEE ISMAR Adjunct: 2nd XRAI-SCA Workshop, 2026, pp. –.",
-    status: "Accepted",
+    venue: "Proceedings of IEEE ISMAR Adjunct: 2nd XRAI-SCA Workshop, 2026, pp. 659–661.",
+    doi: "https://doi.org/10.1109/ISMAR-Adjunct73196.2026.00128",
     image: "/assets/publications/Fouad2026btd.webp"
   },
   {
@@ -107,8 +107,8 @@ export const publications: Pub[] = [
     subtype: "Workshop Paper",
     title: "AVAGENTs for Tacit Knowledge Transfer in Safe Hydrogen Pipeline Engineering with XR and AI-Enhanced Digital Twins",
     authors: "Hyeongil Nam, Muskan Sarvesh, Taeyeon Kim, and Kangsoo Kim",
-    venue: "Proceedings of IEEE ISMAR Adjunct: 2nd XRAI-SCA Workshop, 2026, pp. –.",
-    status: "Accepted",
+    venue: "Proceedings of IEEE ISMAR Adjunct: 2nd XRAI-SCA Workshop, 2026, pp. 653–654.",
+    doi: "https://doi.org/10.1109/ISMAR-Adjunct73196.2026.00126",
     image: "/assets/publications/Nam2026aft.webp"
   },
   {
@@ -117,8 +117,8 @@ export const publications: Pub[] = [
     subtype: "Workshop Paper",
     title: "Attribution Before Adaptation: Evidence-Calibrated User Profiles for XR",
     authors: "Chuyang Zhang, Hyeongil Nam, and Kangsoo Kim",
-    venue: "Proceedings of IEEE ISMAR Adjunct: 1st Grand Challenges in Adaptive Extended Reality (AXR) Workshop, 2026, pp. –.",
-    status: "Accepted",
+    venue: "Proceedings of IEEE ISMAR Adjunct: 1st Grand Challenges in Adaptive Extended Reality (AXR) Workshop, 2026, pp. 121–123.",
+    doi: "https://doi.org/10.1109/ISMAR-Adjunct73196.2026.00033",
     image: "/assets/publications/Zhang2026aba.webp"
   },
   {
@@ -127,8 +127,8 @@ export const publications: Pub[] = [
     subtype: "Workshop Paper",
     title: "Towards Motivation-Adaptive XR: A Self-Determination Theory Framework for Designing Embodied Pedagogical Agents",
     authors: "Ahmad A. Fouad, Hyeongil Nam, and Kangsoo Kim",
-    venue: "Proceedings of IEEE ISMAR Adjunct: 1st Grand Challenges in Adaptive Extended Reality (AXR) Workshop, 2026, pp. –.",
-    status: "Accepted",
+    venue: "Proceedings of IEEE ISMAR Adjunct: 1st Grand Challenges in Adaptive Extended Reality (AXR) Workshop, 2026, pp. 128–131.",
+    doi: "https://doi.org/10.1109/ISMAR-Adjunct73196.2026.00035",
     image: "/assets/publications/Fouad2026tma.webp"
   },
   {
@@ -137,8 +137,8 @@ export const publications: Pub[] = [
     subtype: "Workshop Paper",
     title: "Physiological Memories in Extended Reality: A Discussion on Opportunities and Challenges",
     authors: "Chuyang Zhang, Hyeongil Nam, and Kangsoo Kim",
-    venue: "Proceedings of IEEE ISMAR Adjunct: 4th Spatial Memory in XR (XRMemory) Workshop, 2026, pp. –.",
-    status: "Accepted",
+    venue: "Proceedings of IEEE ISMAR Adjunct: 4th Spatial Memory in XR (XRMemory) Workshop, 2026, pp. 766–767.",
+    doi: "https://doi.org/10.1109/ISMAR-Adjunct73196.2026.00147",
     image: "/assets/publications/Zhang2026pmi.webp"
   },
   {
