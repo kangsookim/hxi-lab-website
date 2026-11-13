@@ -2,6 +2,9 @@ import Link from 'next/link';
 import { publications } from '@/data/publications';
 import { newsItems } from '@/data/news';
 import HomeHero from '@/components/HomeHero';
+import InsideHXIL from '@/components/InsideHXIL';
+import {galleryItems} from '@/data/gallery';
+import {pressItems} from '@/data/press';
 
 function shortVenue(venue:string){
   return venue
@@ -14,6 +17,10 @@ function shortVenue(venue:string){
 export default function Home(){
   const latestPubs = publications.slice(0,4);
   const latest = newsItems.slice(0,4);
+  const highlights = [
+    ...[...galleryItems].sort((a,b)=>b.date.localeCompare(a.date)).slice(0,4).map(g=>({kind:'Gallery' as const,date:g.date,title:g.title,image:g.images[0],href:`/news/gallery?event=${encodeURIComponent(g.date+'|'+g.title)}`,subtitle:g.tags.join(' · ')})),
+    ...[...pressItems].sort((a,b)=>new Date(b.date).getTime()-new Date(a.date).getTime()).slice(0,2).map(p=>({kind:'Press' as const,date:new Date(p.date).toISOString().slice(0,10),title:p.title,image:p.image,href:p.url,subtitle:p.source}))
+  ].sort((a,b)=>b.date.localeCompare(a.date));
   return <>
     <HomeHero />
 
@@ -29,6 +36,8 @@ export default function Home(){
         </div>
       </div>
     </section>
+
+    <InsideHXIL items={highlights} />
 
     <section className="home-join"><div className="wrap"><div><div className="eyebrow light">Join HXIL</div><h2>Work with us to build a more human future.</h2><p>We welcome students, researchers, and collaborators who want to explore what X can become—and what it should mean for people.</p></div><Link className="btn primary" href="/join">Explore Opportunities →</Link></div></section>
   </>;

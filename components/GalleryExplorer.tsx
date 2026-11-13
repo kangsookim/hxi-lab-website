@@ -9,6 +9,13 @@ export default function GalleryExplorer(){
   const [selected,setSelected]=useState<GalleryItem|null>(null);
   const [photoIndex,setPhotoIndex]=useState(0);
 
+  useEffect(()=>{
+    const event=new URLSearchParams(window.location.search).get('event');
+    if(!event)return;
+    const match=galleryItems.find(g=>g.date+'|'+g.title===event);
+    if(match){setSelected(match);setPhotoIndex(0);}
+  },[]);
+
   const years=useMemo(()=>Array.from(new Set(galleryItems.map(g=>g.year))).sort((a,b)=>b-a),[]);
   const filtered=galleryItems.filter(g=>(tag==='All'||g.tags.includes(tag))&&(year==='All'||g.year===Number(year)));
   const photoCount=filtered.reduce((sum,g)=>sum+g.images.length,0);
