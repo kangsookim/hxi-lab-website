@@ -8,6 +8,7 @@ export const publications: Pub[] = [
     title: "Authentication-Style Enrollment for Personalized Facial Emotion Recognition Under Head-Mounted Display Occlusion",
     authors: "Myungjun Lee, Chuyang Zhang, Hyeongil Nam, Gouri Ginde, and Kangsoo Kim",
     venue: "Proceedings of the ACM Symposium on Virtual Reality Software and Technology (VRST), 2026, pp. 60:1–12.",
+    doi: "https://doi.org/10.1145/3822517.3848742",
     image: "/assets/publications/Lee2026ase.webp"
   },
   {
@@ -17,6 +18,7 @@ export const publications: Pub[] = [
     title: "Exploring Cultural Competency in Palliative Nursing Education Using AI-Powered Virtual Agents in VR: An Exploratory Study",
     authors: "Taeyeon Kim, Arjun Chatha, Caitlin Manz, Hyeongil Nam, Kara Sealock, and Kangsoo Kim",
     venue: "Proceedings of the ACM Symposium on Virtual Reality Software and Technology (VRST), 2026, pp. 48:1–9.",
+    doi: "https://doi.org/10.1145/3822517.3848741",
     image: "/assets/publications/Kim2026ecc.webp"
   },
   {
