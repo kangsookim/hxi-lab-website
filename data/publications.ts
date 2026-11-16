@@ -7,8 +7,7 @@ export const publications: Pub[] = [
     subtype: "Conference Paper",
     title: "Authentication-Style Enrollment for Personalized Facial Emotion Recognition Under Head-Mounted Display Occlusion",
     authors: "Myungjun Lee, Chuyang Zhang, Hyeongil Nam, Gouri Ginde, and Kangsoo Kim",
-    venue: "Proceedings of the ACM Symposium on Virtual Reality Software and Technology (VRST), 2026, pp. –.",
-    status: "Accepted",
+    venue: "Proceedings of the ACM Symposium on Virtual Reality Software and Technology (VRST), 2026, pp. 60:1–12.",
     image: "/assets/publications/Lee2026ase.webp"
   },
   {
@@ -17,8 +16,7 @@ export const publications: Pub[] = [
     subtype: "Conference Paper",
     title: "Exploring Cultural Competency in Palliative Nursing Education Using AI-Powered Virtual Agents in VR: An Exploratory Study",
     authors: "Taeyeon Kim, Arjun Chatha, Caitlin Manz, Hyeongil Nam, Kara Sealock, and Kangsoo Kim",
-    venue: "Proceedings of the ACM Symposium on Virtual Reality Software and Technology (VRST), 2026, pp. –.",
-    status: "Accepted",
+    venue: "Proceedings of the ACM Symposium on Virtual Reality Software and Technology (VRST), 2026, pp. 48:1–9.",
     image: "/assets/publications/Kim2026ecc.webp"
   },
   {
@@ -48,17 +46,17 @@ export const publications: Pub[] = [
     title: "User Profiling and Modeling in Extended Reality: A Scoping Review",
     authors: "Chuyang Zhang, Hyeongil Nam, and Kangsoo Kim",
     venue: "IEEE Transactions on Visualization and Computer Graphics (TVCG), 2026.",
-    status: "Accepted",
+    doi: "https://doi.org/10.1109/TVCG.2026.3747544",
     image: "/assets/publications/Zhang2026upa.webp"
   },
   {
     year: 2026,
     category: "Journal",
     subtype: "Journal Article",
-    title: "Self-Resemblance and Activity-Aware Responses Shape Relational Openness and Reflection in XR Companion Interaction",
+    title: "Self-Resemblance and Activity-Aware Responsiveness in XR Companions: Effects on Relational Openness and Reflection",
     authors: "Hyeongil Nam, Jeewoo Kim, and Kangsoo Kim",
     venue: "IEEE Transactions on Visualization and Computer Graphics (TVCG), 2026.",
-    status: "Accepted",
+    doi: "https://doi.org/10.1109/TVCG.2026.3747480",
     image: "/assets/publications/Nam2026sra.webp"
   },
   {
