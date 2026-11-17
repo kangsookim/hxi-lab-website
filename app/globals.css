@@ -400,7 +400,7 @@
 @media(max-width:580px){.media-item{grid-template-columns:1fr;gap:14px}.media-thumb{height:auto;aspect-ratio:16/9}.media-copy h3{font-size:18px}}
 
 /* Inside HXIL: homepage Gallery + Press highlights */
-.home-inside-section{padding:36px 0 72px;background:#fff}
+.home-inside-section{padding:10px 0 72px;background:#fff}
 .home-inside-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:26px}
 .home-inside-head h2{margin:6px 0 8px;font-size:clamp(28px,3vw,38px);letter-spacing:-.04em;color:#101828}
 .home-inside-head p{margin:0;color:#617188;font-size:14px}
