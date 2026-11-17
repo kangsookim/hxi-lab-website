@@ -2,7 +2,7 @@
 import {useMemo,useState} from 'react';
 import {newsItems} from '@/data/news';
 
-const categories = ['All','Research','Awards','People','Talks & Visits','Events'] as const;
+const categories = ['All','Research','Events','People','Awards','Talks','Visits','Social'] as const;
 export default function NewsExplorer(){
   const [category,setCategory]=useState<(typeof categories)[number]>('All');
   const [year,setYear]=useState('All');

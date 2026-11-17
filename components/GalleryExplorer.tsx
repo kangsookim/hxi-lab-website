@@ -47,7 +47,7 @@ export default function GalleryExplorer(){
       </select>
     </div>
 
-    <div className="gallery-count">{filtered.length} events · {photoCount} photos</div>
+    <div className="gallery-count">{filtered.length} albums · {photoCount} photos</div>
 
     <div className="gallery-grid">
       {filtered.map((g,i)=><figure className="gallery-card gallery-event-card" key={g.date+g.title+i}>
