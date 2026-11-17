@@ -2,6 +2,12 @@ export type GalleryTag = 'Research' | 'Events' | 'People' | 'Awards' | 'Talks' |
 export type GalleryItem = { date:string; year:number; tags:GalleryTag[]; title:string; images:string[] };
 export const galleryTags: GalleryTag[] = ['Research','Events','People','Awards','Talks','Visits','Social'];
 export const galleryItems: GalleryItem[] = [
+  {date:'2026-10-09', year:2026, tags:['Events'], title:'HXIL group photos @ ISMAR 2026', images:['/assets/gallery/2026/20261005_01.webp', '/assets/gallery/2026/20261008.webp', '/assets/gallery/2026/20261009_03.webp']},
+  {date:'2026-10-09', year:2026, tags:['Talks'], title:'Ahmad, Chuyang, and Hyeongil presenting our TVCG and ISMAR papers', images:['/assets/gallery/2026/20261009_01.webp', '/assets/gallery/2026/20261009_02.webp']},
+  {date:'2026-10-06', year:2026, tags:['Talks'], title:'Ahmad, Muskan, MJ, and Hyeongil presenting our workshop papers', images:['/assets/gallery/2026/20261006_04.webp', '/assets/gallery/2026/20261006_05.webp']},
+  {date:'2026-10-06', year:2026, tags:['Events'], title:'UCalgary team co-organizing the 2nd XRAI-SCA Workshop in collaboration with Polytechnic University of Bari and MIT', images:['/assets/gallery/2026/20261006_06.webp', '/assets/gallery/2026/20261006_07.webp']},
+  {date:'2026-10-06', year:2026, tags:['Events'], title:'Kangsoo co-organizing the 4th XRMemory Workshop', images:['/assets/gallery/2026/20261006_01.webp', '/assets/gallery/2026/20261006_02.webp']},
+  {date:'2026-10-06', year:2026, tags:['Talks'], title:'Ahmad presenting our poster at ISMAR 2026', images:['/assets/gallery/2026/20261006_03.webp']},
   {date:'2026-09-24', year:2026, tags:['Visits', 'Research'], title:'SHAPE digital twin demo for Pipeline Centre visitors', images:['/assets/gallery/2026/20260924_01.webp', '/assets/gallery/2026/20260924_02.webp']},
   {date:'2026-09-22', year:2026, tags:['Research'], title:'ACHF video shoot for the KidSIM InterFACE-AR project', images:['/assets/gallery/2026/20260922_01.webp', '/assets/gallery/2026/20260922_02.webp']},
   {date:'2026-08-13', year:2026, tags:['Talks', 'Visits'], title:'JBNU visiting students\' final presentations', images:['/assets/gallery/2026/20260813.webp']},
